@@ -35,7 +35,8 @@ p {
 
 header {
   width: 100%;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   header:after {
     content: '';
     background: rgba(0, 0, 0, 0.7);
