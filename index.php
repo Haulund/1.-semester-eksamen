@@ -10,11 +10,11 @@
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/92410/responsive-youtube.js"></script>
-    <script src="js/skrollr.min.js"></script> 
-    
+    <script src="js/skrollr.min.js"></script>
+
     <script src="js/scripts.js"></script>
 
-    
+
 </head>
 <body>
     <header>
@@ -51,6 +51,8 @@
         </div>
     </main>
 
-    <footer></footer>
+    <?php include 'footer';?>
+    
+
 </body>
 </html>
