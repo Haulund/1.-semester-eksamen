@@ -173,9 +173,10 @@ header .border-bottom:hover {
 }
 
 footer {
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
   height: calc(100vh - 4px);
-  background: red;
+  background: #ebebeb;
 }
 
 .wrapper {

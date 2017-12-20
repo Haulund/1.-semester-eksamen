@@ -1,5 +1,6 @@
 footer {
-    width: 100%;
+    width: $siteWidthWrapperMedium;
+    margin: 0 auto;
     height: calc(100vh - 4px);
-    background: red;
+    background: $lightgrey;
 }
