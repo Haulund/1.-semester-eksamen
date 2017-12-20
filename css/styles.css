@@ -1,2 +1,197 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
 body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+.purple {
+  background: #200017; }
+
+.green {
+  background: #5a7677; }
+
+h1, h2 {
+  font-weight: 100;
+  font-size: 40px;
+  margin-bottom: 30px; }
+
+p {
+  font-weight: 300;
+  line-height: 130%; }
+
+header {
+  width: 100%;
+  position: relative; }
+  header:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2; }
+  header .bg-placeholder {
+    background-image: url(https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/10/mountains_hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  header .videowrapper {
+    height: 100vh;
+    position: relative; }
+  header .container {
+    position: relative; }
+  header .background-video {
+    background-position: top center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  header video,
+  header source {
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute; }
+  header .loaded .ytplayer-container {
+    display: block; }
+  header .loaded .placeholder-image {
+    opacity: 0; }
+  header .ytplayer-container {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0; }
+  header .placeholder-image {
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out; }
+  header .ytplayer-shield {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2; }
+  header .container {
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0 30px 0 30px;
+    margin: 30px auto; }
+  header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    z-index: 10; }
+  header .border-bottom {
+    height: 4px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    transition: 300ms ease; }
+    header .border-bottom:before {
+      content: '';
+      background: transparent;
+      width: 100%;
+      height: 100px;
+      position: absolute;
+      top: -100px; }
+    header .border-bottom:hover {
+      height: 30px; }
+
+footer {
+  width: 100%;
+  height: calc(100vh - 4px);
   background: red; }
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1440px) {
+    .wrapper {
+      max-width: 1200px; } }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      max-width: 100%; } }
+
+main {
+  padding: 60px 60px 0; }
+
+section.textimage {
+  margin-bottom: 60px; }
+  section.textimage:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section.textimage figure {
+    float: left;
+    width: 50%; }
+    @media screen and (max-width: 768px) {
+      section.textimage figure {
+        width: 100%;
+        float: none; } }
+  section.textimage .text {
+    float: right;
+    width: 50%;
+    padding: 60px;
+    color: white; }
+    @media screen and (max-width: 768px) {
+      section.textimage .text {
+        width: 100%;
+        float: none; } }
+  @media screen and (max-width: 768px) {
+    section.textimage.image-right {
+      margin-top: 30px; } }
+  section.textimage.image-right figure {
+    float: right; }
+    @media screen and (max-width: 768px) {
+      section.textimage.image-right figure {
+        width: 100%; } }
+  section.textimage.image-right .text {
+    float: left; }
+    @media screen and (max-width: 768px) {
+      section.textimage.image-right .text {
+        width: 100%; } }
