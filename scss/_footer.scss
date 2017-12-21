@@ -1,0 +1,15 @@
+footer {
+    width: $siteWidthWrapperMedium;
+    margin: 0 auto;
+    height: calc(100vh - 4px);
+    background: $lightgrey;
+
+
+    .button{
+      @include button;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
