@@ -23,9 +23,14 @@
                 <div class="bg-placeholder"></div>
             <div id="background-video" class="background-video" data-id="REgJPJqrl3k"></div>
         </div>
-        <div class="border-bottom"></div>
+      <div class="border-bottom"></div>
     </header>
     <main>
+      <div class="wrapper">
+        <p class="citattext">“Mad er et af de bedste værktøjer til at samle folk, til at fortælle historier og skabe debat”
+  Rasmus Leck Fischer</p>
+      </div>
+
         <div class="wrapper">
             <section class="textimage">
                 <figure><img src="https://source.unsplash.com/900x1000"></figure>
@@ -50,9 +55,9 @@
             </section>
         </div>
     </main>
-
-    <?php include 'footer.php';?>
-    
-
 </body>
+    <?php include 'footer.php';?>
+
+
+
 </html>
