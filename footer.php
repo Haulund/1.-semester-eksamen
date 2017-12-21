@@ -1,5 +1,7 @@
 <footer>
-  <div class="button">
-
-  </div>
+  <a href="#">
+    <div class="button">
+      <p>tilmeld dig vores nyhedsbrev</p>
+    </div>
+  </a>
 </footer>
