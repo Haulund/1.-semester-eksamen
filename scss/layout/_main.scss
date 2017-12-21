@@ -1,0 +1,16 @@
+main {
+    max-width: $siteWidthWrapper;
+    margin: 0 auto;
+
+    @media screen and (max-width: $siteWidthWrapper) {
+        max-width: $siteWidthWrapperMedium;
+    }
+
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+section {
+    padding: 60px 0 0;
+}

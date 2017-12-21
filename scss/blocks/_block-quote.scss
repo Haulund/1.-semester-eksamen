@@ -1,0 +1,20 @@
+//HOLDE BLOCKQUOTE ELEMENTET LIDT MERE GENERELT I STYLE
+blockquote {
+    p {
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 1.26;
+        text-align: center;
+        color: #2b2b2b;
+    }
+    span {
+        display: block;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+section.quote {
+    
+}
