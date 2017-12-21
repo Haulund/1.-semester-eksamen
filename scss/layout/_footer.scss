@@ -9,7 +9,7 @@ footer {
     }
 
     .button {
-      @include button($purple, $white)
+      @include button($purple, $white);
       position: relative;
       left: 50%;
       transform: translateX(-50%);
