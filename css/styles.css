@@ -34,7 +34,7 @@ p {
   line-height: 130%; }
 
 footer {
-  width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   background: #ebebeb; }
   footer .button {
@@ -58,7 +58,10 @@ main {
       max-width: 100%; } }
 
 section {
-  padding: 60px 0 0; }
+  padding: 15px; }
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 60px 0 0; } }
 
 blockquote p {
   font-family: Roboto;
@@ -73,44 +76,32 @@ blockquote span {
   font-size: 20px;
   font-weight: 400; }
 
-section.textimage:after {
-  content: "";
-  display: table;
-  clear: both; }
+@media screen and (min-width: 768px) {
+  section.textimage:after {
+    content: "";
+    display: table;
+    clear: both; } }
 
-section.textimage figure {
-  float: left;
-  width: 50%; }
-  @media screen and (max-width: 768px) {
-    section.textimage figure {
-      width: 100%;
-      float: none; } }
+@media screen and (min-width: 768px) {
+  section.textimage figure {
+    float: left;
+    width: 50%; } }
 
 section.textimage .text {
-  float: right;
-  width: 50%;
   padding: 60px;
   color: white; }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     section.textimage .text {
-      width: 100%;
-      float: none; } }
+      width: 50%;
+      float: right; } }
 
-@media screen and (max-width: 768px) {
-  section.textimage.image-right {
-    margin-top: 30px; } }
+@media screen and (min-width: 768px) {
+  section.textimage.image-right figure {
+    float: right; } }
 
-section.textimage.image-right figure {
-  float: right; }
-  @media screen and (max-width: 768px) {
-    section.textimage.image-right figure {
-      width: 100%; } }
-
-section.textimage.image-right .text {
-  float: left; }
-  @media screen and (max-width: 768px) {
-    section.textimage.image-right .text {
-      width: 100%; } }
+@media screen and (min-width: 768px) {
+  section.textimage.image-right .text {
+    float: left; } }
 
 section.videoheader {
   width: 100%;

@@ -1,45 +1,38 @@
 section.textimage {
-    @include clearfix;
+    @media screen and (min-width: $md) {
+        @include clearfix;
+    }
     
     figure {
-        float: left;
-        width: 50%;
 
-        @media screen and (max-width: 768px) {
-            width: 100%;
-            float: none;
+        @media screen and (min-width: $md) {
+            float: left;
+            width: 50%;
         }
     }
 
     .text {
-        float: right;
-        width: 50%;
         padding: 60px;
         color: white;
 
-        @media screen and (max-width: 768px) {
-            width: 100%;
-            float: none;
+        @media screen and (min-width: $md) {
+            width: 50%;
+            float: right;
         }
     }
 
     &.image-right {
-        @media screen and (max-width: 768px) {
-            margin-top: 30px;
-        }
-        figure{
-            float: right;
-            @media screen and (max-width: 768px) {
-                width: 100%;
+
+        figure {
+            @media screen and (min-width: $md) {
+                float: right;
             }
         }
 
         .text {
-            float: left;
-            @media screen and (max-width: 768px) {
-                width: 100%;
+            @media screen and (min-width: $md) {
+                float: left;
             }
         }
-
     }
 }
