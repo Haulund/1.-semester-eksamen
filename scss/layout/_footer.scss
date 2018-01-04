@@ -5,8 +5,57 @@ footer {
     padding: 15px;
 
     .logo {
-      width: 588px;
+      max-width: 588px;
+      margin: auto;
+      margin-top: 93px;
+
+      svg{
+        width: 100%;
+        }
+      }
+
+      .list1 {
+        margin: auto;
+        width: 65%;
+        margin-top: 83px;
+
+      }
+
+      .list2{
+        margin: auto;
+        width: 40%;
+        margin-top: 82px;
+      }
+
+      ul{
+        width: 100%;
+
+
+
+      li {
+        display:inline-block;
+
+      }
+
+      li:before {
+        content: '\00a0\2022\00a0\00a0';
+	      color:#999;
+	      color:rgba(0,0,0,1);
+	      font-size:11px;
+        padding-left: 1em;
+        padding-right: 1em;
+        }
+
+      li:first-child:before{
+        content: '';
+      }
     }
+
+
+
+
+
+
 
     @media screen and (min-width: $md) {
       padding: 60px;
@@ -18,5 +67,6 @@ footer {
       left: 50%;
       transform: translateX(-50%);
       padding: 25px 40px;
+      margin-top: 75px;
     }
 }

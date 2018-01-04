@@ -59,7 +59,39 @@ footer {
   padding: 15px;
 }
 footer .logo {
-  width: 588px;
+  max-width: 588px;
+  margin: auto;
+  margin-top: 93px;
+}
+footer .logo svg {
+  width: 100%;
+}
+footer .list1 {
+  margin: auto;
+  width: 65%;
+  margin-top: 83px;
+}
+footer .list2 {
+  margin: auto;
+  width: 40%;
+  margin-top: 82px;
+}
+footer ul {
+  width: 100%;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li:before {
+  content: '\00a0\2022\00a0\00a0';
+  color: #999;
+  color: black;
+  font-size: 11px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+footer ul li:first-child:before {
+  content: '';
 }
 @media screen and (min-width: 769px) {
   footer {
@@ -78,6 +110,7 @@ footer .button {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   padding: 25px 40px;
+  margin-top: 75px;
 }
 footer .button:hover {
   background: #53003c;
