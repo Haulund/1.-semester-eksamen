@@ -4,4 +4,123 @@ header {
     top: 0;
     left: 0;
     z-index: 999999;
+
+
+    nav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0; 
+        right: 0;
+        background-color: $purple; 
+        overflow-x: hidden; 
+        padding-top: 15px;
+        transition: 300ms ease;
+    
+        @media screen and (min-width: $md) {
+            padding-top: 60px;
+        }
+        ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            li {
+                a {
+                    padding: 0px 0px 40px 40px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: $white;
+                    display: block;
+                    transition: 300ms ease;
+                    text-transform: uppercase;
+                    
+            
+                    @media screen and (min-width: $md) {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        .closebtn {
+            position: absolute;
+            right: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid $white;
+            transition: 300ms ease;
+        
+            span {
+                font-size: 40px;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $white;
+                margin-top: -2px;
+                transition: 300ms ease;
+            }
+            &:hover {
+                background: white;
+                span {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.openbtn {
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    background: $black;
+    transform: translateY(-50%);
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 300ms ease;
+    &:hover {
+        background: #f8f8f8;
+        span {
+            background: black;
+            &:before, &:after {
+                background: black;
+            }
+        }
+    }
+    span {
+        width: 25px;
+        height: 3px;
+        background: $white;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 300ms ease;
+
+        &:before, &:after {
+            content: '';
+            width: 25px;
+            height: 3px;
+            background: $white;
+            display: block;
+            position: absolute;
+            margin-top: -8px;   
+            transition: 300ms ease;     
+        }
+        &:after {
+            margin-top: 8px;
+        }
+    }
 }

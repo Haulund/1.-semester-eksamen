@@ -16,7 +16,7 @@ section.videoheader {
     }
 
     .bg-placeholder {
-        background-image: url('https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/10/mountains_hd.jpg');
+        // background-image: url(''); //FALLBACK
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -50,7 +50,7 @@ section.videoheader {
 
     /* indsat af Steffen Videologo*/
 
-    .videologo{
+    .videologo {
       position: absolute;
       width: 290px;
       margin-top: 224px;
