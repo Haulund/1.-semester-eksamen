@@ -16,21 +16,21 @@ footer {
 
       .list1 {
         margin: auto;
-        width: 65%;
+        text-align: center;
         margin-top: 83px;
 
       }
 
       .list2{
         margin: auto;
-        width: 40%;
+        text-align: center;
         margin-top: 82px;
+        margin-bottom: 87px;
       }
 
       ul{
-        width: 100%;
-
-
+        display: inline-block;
+      }
 
       li {
         display:inline-block;
@@ -54,9 +54,6 @@ footer {
 
 
 
-
-
-
     @media screen and (min-width: $md) {
       padding: 60px;
     }
@@ -69,4 +66,3 @@ footer {
       padding: 25px 40px;
       margin-top: 75px;
     }
-}

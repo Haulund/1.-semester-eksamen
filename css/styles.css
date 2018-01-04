@@ -68,21 +68,22 @@ footer .logo svg {
 }
 footer .list1 {
   margin: auto;
-  width: 65%;
+  text-align: center;
   margin-top: 83px;
 }
 footer .list2 {
   margin: auto;
-  width: 40%;
+  text-align: center;
   margin-top: 82px;
+  margin-bottom: 87px;
 }
 footer ul {
-  width: 100%;
-}
-footer ul li {
   display: inline-block;
 }
-footer ul li:before {
+footer li {
+  display: inline-block;
+}
+footer li:before {
   content: '\00a0\2022\00a0\00a0';
   color: #999;
   color: black;
@@ -90,15 +91,14 @@ footer ul li:before {
   padding-left: 1em;
   padding-right: 1em;
 }
-footer ul li:first-child:before {
+footer li:first-child:before {
   content: '';
 }
+
 @media screen and (min-width: 769px) {
-  footer {
-    padding: 60px;
-  }
+  padding: 60px;
 }
-footer .button {
+.button {
   background: #200017;
   color: white;
   border-radius: 35px;
@@ -112,7 +112,7 @@ footer .button {
   padding: 25px 40px;
   margin-top: 75px;
 }
-footer .button:hover {
+.button:hover {
   background: #53003c;
 }
 
