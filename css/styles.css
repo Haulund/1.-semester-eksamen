@@ -259,6 +259,7 @@ section.videoheader {
   position: relative;
   overflow: hidden;
   padding-top: 0;
+  /* indsat af Steffen Videologo*/
 }
 section.videoheader:after {
   content: '';
@@ -297,6 +298,15 @@ section.videoheader .background-video {
   right: 0;
   top: 0;
   bottom: 0;
+}
+section.videoheader .videologo {
+  position: absolute;
+  width: 290px;
+  margin-top: 224px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  z-index: 11;
 }
 section.videoheader video,
 section.videoheader source {
