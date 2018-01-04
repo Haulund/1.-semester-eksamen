@@ -4,6 +4,10 @@ footer {
     background: $lightgrey;
     padding: 15px;
 
+    .logo {
+      width: 588px;
+    }
+
     @media screen and (min-width: $md) {
       padding: 60px;
     }

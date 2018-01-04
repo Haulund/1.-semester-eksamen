@@ -50,6 +50,9 @@ footer {
   background: #ebebeb;
   padding: 15px;
 }
+footer .logo {
+  width: 588px;
+}
 @media screen and (min-width: 769px) {
   footer {
     padding: 60px;
