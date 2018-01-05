@@ -22,7 +22,44 @@
     <?php include 'header.php'; ?>
 
     <main>
-    Nyheder
+        <section class="newswrapper">
+            <div class="row"> 
+                <div class="column">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                </div> 
+                <div class="column">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                    <img src="https://source.unsplash.com/random">
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include 'footer.php'; ?>
