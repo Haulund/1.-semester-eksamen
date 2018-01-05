@@ -1,20 +1,29 @@
 main {
     max-width: 100%;
     margin: 0 auto;
-    
-    // @media screen and (min-width: $siteWidthWrapperMedium) {
-    //     max-width: $siteWidthWrapperMedium;
+    padding: 15px;
+
+    // @media screen and (min-width: $md) {
+    //     padding: 0 15px;
+    // }
+
+
+    @media screen and (min-width: $siteWidthWrapperMedium) {
+        max-width: $lg;
+    }
+
+    // @media screen and (min-width: $md) {
+    //     max-width: $md;
     // }
 
     // @media screen and (min-width: $siteWidthWrapper) {
-    //     max-width: $siteWidthWrapper;
+    //     max-width: $lg;
     // }
 }
 
 section {
-    padding: 15px;
 
     @media screen and (min-width: $md) {
-        padding: 15% 0 0;
+        padding: 100px 0 0;
     }
 }

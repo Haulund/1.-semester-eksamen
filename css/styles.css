@@ -141,12 +141,12 @@ footer {
   max-width: 100%;
   margin: 0 auto;
   margin-top: 10%; }
-  @media screen and (min-width: 1200px) {
-    footer {
-      max-width: 1200px; } }
   @media screen and (min-width: 1440px) {
     footer {
-      max-width: 1440px; } }
+      max-width: 1170px; } }
+  @media screen and (min-width: 1440px) {
+    footer {
+      max-width: 1170px; } }
   footer .logo {
     max-width: 588px;
     margin: auto;
@@ -197,13 +197,15 @@ footer {
 
 main {
   max-width: 100%;
-  margin: 0 auto; }
-
-section {
+  margin: 0 auto;
   padding: 15px; }
-  @media screen and (min-width: 769px) {
-    section {
-      padding: 15% 0 0; } }
+  @media screen and (min-width: 1170px) {
+    main {
+      max-width: 1170px; } }
+
+@media screen and (min-width: 769px) {
+  section {
+    padding: 100px 0 0; } }
 
 blockquote p {
   font-family: Roboto;
