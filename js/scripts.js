@@ -1,8 +1,20 @@
 $(document).ready(function() {
 
-    //STARTER SKOLLR
-    var s = skrollr.init();
+    var newWindowWidth = $(window).width();
+    
+    $(window).on("resize", function (e) {
+        checkScreenSize();
+    });
 
+    checkScreenSize();
+
+    function checkScreenSize(){
+        var newWindowWidth = $(window).width();
+        if (newWindowWidth >= 768) {
+            //STARTER SKOLLR
+            var s = skrollr.init();
+        }
+    }
 
     //VIDEO HEADER
     var video_id = $('#background-video').attr('data-id');
