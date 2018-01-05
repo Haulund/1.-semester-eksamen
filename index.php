@@ -44,7 +44,7 @@
         <section class="quote">
             <blockquote>
                 <p>“Mad er et af de bedste værktøjer til at samle folk, til at fortælle historier og skabe debat”
-                    <span>Rasmus Leck Fischer<span>
+                    <span>Rasmus Leck Fischer, Chefkok Gastronomisk Innovation.<span>
                 </p>
             </blockquote>
         </section>
@@ -52,7 +52,7 @@
         <section class="textimage">
             <figure><img src="img/forside/eventsmedgastronomiicentrum.jpg"></figure>
             <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
-              <h2>Events med gastronomi i centrumt</h2>
+              <h2>Events med gastronomi i centrum</h2>
               <p>Vi har hjulpet mange virksomheder med at udvikle events og koncepter med fokus på gastronomi.</p>
               <p>Vi kan stå for hele eller dele af konceptudviklingen og trækker på et stort netværk af dygtige specialister i det omfang, der er behov for det – ingen opgave er for lille eller stor.</p>
           </div>
