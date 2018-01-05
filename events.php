@@ -31,18 +31,18 @@
 
   <main>
     <section>
-      <blockquote>
-          <p>Skal dit næste event være noget helt særligt?</p>
+      <article class="articleblock">
+          <h1>Skal dit næste event være noget helt særligt?</h1>
           <p>Med udgangspunkt i jeres ønsker og med vores indgående kendskab til den gastronomiske verden, hjælper vi jer med at udvikle spændende arrangementer med gastronomi som et ekslusivt omdrejningspunkt.
 Uanset om det gælder en produktlancering, teambuilding i virksomheden eller afholdelse af et netværksarrangement, kan vi stå for ideudvikling og projektledelse og sikrer kvaliteten, så jeres kunder får en hel unik oplevelse .</p>
           <p>“Tak for et rigtig vellykket arrangement i fredags... alle var ovenud begejstrede, både de gourmet-vante og dem, der ellers var lidt skeptiske ifht. ”det eksperimenterende”...
 Koncept, betjening og arrangement, alt var bare tip-top.”</p>
           <span>Nicoline Dahlberg, redaktør hos Forlaget Gyldendal</span>
-      </blockquote>
+      </article>
     </section>
 
     <section class="textimage image-right">
-        <figure><img src="https://source.unsplash.com/900x800"></figure>
+        <figure><img src="img/events/vikandethele.jpg"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
             <h2>Vi hjælper med det hele.</h2>
             <p>Ved kreativ sparring kan vi i fællesskab skabe jeres event, hvor vi kan stå for det hele eller dele af arrangementet alt efter jeres ønsker.</p>
@@ -53,7 +53,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
     </section>
 
     <section class="textimage">
-        <figure><img src="https://source.unsplash.com/900x1000"></figure>
+        <figure><img src=img/events/casedanskindustri.jpg></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
             <h2>Case - Topmøde for Dansk Industri</h2>
             <p>Dansk Industri ønskede at indlede deres årlige topmøde ved at byde de tusind højt profilerede gæster, topembedsmænd og ministre på en række oplevelser med ny teknologi og innovative tanker, som skulle tale til både følelser og sanser. Vores opgave var at udvikle konceptet for, hvordan man kunne bringe smagssansen i spil.</p>
@@ -62,7 +62,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
     </section>
 
     <section class="textimage image-right">
-        <figure><img src="https://source.unsplash.com/900x800"></figure>
+        <figure><img src="img/events/viinviterertil.jpg"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
             <h2>Vi inviterer</h2>
             <p>I kan også invitere kunder og medarbejdere med til et af de arrangementer vi selv afholder under mere afslappede former.</p>
@@ -72,6 +72,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
   </main>
 
 
+<?php include 'footer.php'; ?>
 
   </body>
 </html>

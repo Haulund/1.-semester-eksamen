@@ -1,0 +1,15 @@
+article.articleblock {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 30px;
+
+  @media screen and (min-width: $md){
+    padding: 60px 20%;
+  }
+
+  @media screen and (min-width: $xlg){
+    padding: 100px 25%;
+  }
+
+
+}

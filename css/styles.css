@@ -520,3 +520,19 @@ section.headerpic:before {
   right: 0;
   bottom: 0;
 }
+
+article.articleblock {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+@media screen and (min-width: 769px) {
+  article.articleblock {
+    padding: 60px 20%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  article.articleblock {
+    padding: 100px 25%;
+  }
+}
