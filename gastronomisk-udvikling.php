@@ -39,22 +39,26 @@
     <section class="textimage">
         <figure><img src="https://source.unsplash.com/900x1000"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
-            <h2>Lorem ipsum dolor</h2>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <h2>Opskriftsudvikling og FoodStyling</h2>
+            <p>Ønsker I at få professionelle kokke fra landets toprestauranter til at udvikle opskrifter med jeres produkter, kan vi også hjælpe med det.
+            <p>Vi garanterer, at opskrifterne er gennemtestede, så smagen er i top og retterne stylet, så jeres produkt fremstår eksklusivt og professionelt.</p>
         </div>
     </section>
 
     <section class="textimage image-right">
         <figure><img src="https://source.unsplash.com/900x800"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
-            <h2>Lorem ipsum dolor</h2>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <h2>Case - Brøndum Snaps</h2>
+            <p>Da Brøndum Snaps skulle relanceres, ønskede virksomheden at henvende sig til et bredere/yngre publikum end den typiske snapsedrikker.</p>
+            <p>I forbindelse med konceptudviklingen udviklede vi professionelle, snapseegnede opskrifter, som var tidssvarende og trendy. Opskrifterne blev udarbejdet af en professionel kok med baggrund på landets allerbedste restauranter.</div>
+    </section>
+
+    <section class="textimage">
+        <figure><img src="https://source.unsplash.com/900x1000"></figure>
+        <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
+            <h2>Case - Arla Unika</h2>
+            <p>Gastronomisk Innovation blev bedt om at bidrage til at udbrede kendskabet til Arlas Unika-oste.</p>
+            <p>En af fremgangsmåderne var to gastronomiske events på Spisehuset 56°, hvor kokkene Julien Risbourg og Rasmus Leck Fischer blev stillet den udfordring at sammensætte en hel menu med fem retter, som alle indeholdt Arla Unika-oste.</p>
         </div>
     </section>
 

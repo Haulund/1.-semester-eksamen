@@ -184,14 +184,14 @@ footer {
   margin: 0 auto;
   margin-top: 10%;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1170px) {
   footer {
-    max-width: 1200px;
+    max-width: 1170px;
   }
 }
 @media screen and (min-width: 1440px) {
   footer {
-    max-width: 1440px;
+    max-width: 1400px;
   }
 }
 footer .logo {
@@ -258,24 +258,22 @@ footer li:first-child:before {
 main {
   max-width: 100%;
   margin: 0 auto;
+  padding: 15px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1170px) {
   main {
-    max-width: 1200px;
+    max-width: 1170px;
   }
 }
 @media screen and (min-width: 1440px) {
   main {
-    max-width: 1440px;
+    max-width: 1400px;
   }
 }
 
-section {
-  padding: 15px;
-}
 @media screen and (min-width: 769px) {
   section {
-    padding: 15% 0 0;
+    padding: 100px 0 0;
   }
 }
 
@@ -328,6 +326,31 @@ section.textimage .text {
   }
 }
 
+@-webkit-keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    bottom: 20px;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    bottom: 20px;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 section.videoheader {
   width: 100%;
   position: relative;
@@ -455,15 +478,40 @@ section.videoheader .border-bottom {
   transition: 300ms ease;
 }
 section.videoheader .border-bottom .arrow {
-  width: 25px;
-  height: 25px;
-  background: red;
+  width: 20px;
+  height: 17px;
   position: absolute;
   left: 50%;
-  bottom: 10px;
+  bottom: 0px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 4;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  -webkit-animation: arrow-movement 1000ms ease-in-out infinite;
+          animation: arrow-movement 1000ms ease-in-out infinite;
+}
+section.videoheader .border-bottom .arrow:before, section.videoheader .border-bottom .arrow:after {
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+}
+section.videoheader .border-bottom .arrow:before {
+  -webkit-transform: rotate(45deg) translateX(-16%);
+          transform: rotate(45deg) translateX(-16%);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+section.videoheader .border-bottom .arrow:after {
+  -webkit-transform: rotate(-45deg) translateX(16%);
+          transform: rotate(-45deg) translateX(16%);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
 }
 section.videoheader .border-bottom .circle {
   width: 100px;

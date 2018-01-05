@@ -1,8 +1,9 @@
+var newWindowWidth = $(window).width();
+
 $(document).ready(function() {
 
-    var newWindowWidth = $(window).width();
-    
     $(window).on("resize", function (e) {
+        var newWindowWidth = $(window).width();
         checkScreenSize();
     });
 
@@ -10,9 +11,11 @@ $(document).ready(function() {
 
     function checkScreenSize(){
         var newWindowWidth = $(window).width();
-        if (newWindowWidth >= 768) {
+        if (newWindowWidth >= 769) {
             //STARTER SKOLLR
             var s = skrollr.init();
+        } else {
+
         }
     }
 
@@ -43,12 +46,21 @@ $(document).ready(function() {
 
 });
 
-    /* Open the sidenav */
+
+if (newWindowWidth >= 769) {
     function openNav() {
         document.getElementById("navigation").style.width = "30%";
     }
-
-    /* Close/hide the sidenav */
+    
     function closeNav() {
         document.getElementById("navigation").style.width = "0";
     }
+} else {
+    function openNav() {
+        document.getElementById("navigation").style.width = "100%";
+    }
+    
+    function closeNav() {
+        document.getElementById("navigation").style.width = "0";
+    }    
+}

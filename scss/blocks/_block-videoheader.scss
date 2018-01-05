@@ -1,3 +1,17 @@
+// Animation
+@keyframes arrow-movement {
+    0% { 
+        opacity: 0;
+        bottom: 20px;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
+
 section.videoheader {
     width: 100%;
     position: relative;
@@ -145,14 +159,38 @@ section.videoheader {
         transition: 300ms ease;
 
         .arrow {
-            width: 25px;
-            height: 25px;
-            background: red;
+            width: 20px;
+            height: 17px;
             position: absolute;
             left: 50%;
-            bottom: 10px;
+            bottom: 0px;
             transform: translateX(-50%);
             z-index: 4;
+            transition: 300ms ease;
+            animation: arrow-movement 1000ms ease-in-out infinite;
+
+
+            &:before,
+            &:after {
+                content: '';
+                background: $black;
+                display: block;
+                height: 3px; 
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+            }
+
+            &:before {
+                transform: rotate(45deg) translateX(-16%);
+                transform-origin: top left;
+            }
+
+            &:after {
+                transform: rotate(-45deg) translateX(16%);
+                transform-origin: top right;
+            }
         }
 
         .circle {
