@@ -51,22 +51,18 @@
         <section class="textimage">
             <figure><img src="https://source.unsplash.com/900x1000"></figure>
             <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
-                <h2>Lorem ipsum dolor</h2>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            </div>
+              <h2>Events med gastronomi i centrumt</h2>
+              <p>Vi har hjulpet mange virksomheder med at udvikle events og koncepter med fokus på gastronomi.</p>
+              <p>Vi kan stå for hele eller dele af konceptudviklingen og trækker på et stort netværk af dygtige specialister i det omfang, der er behov for det – ingen opgave er for lille eller stor.</p>
+          </div>
         </section>
 
         <section class="textimage image-right">
             <figure><img src="https://source.unsplash.com/900x800"></figure>
             <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
-                <h2>Lorem ipsum dolor</h2>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                <h2>Gastronomisk udvikling</h2>
+                <p>Ønsker I at få professionelle kokke fra landets toprestauranter til at udvikle opskrifter med jeres produkter, kan vi også hjælpe med det.</p>
+                <p>Vi garanterer, at opskrifterne er gennemtestede, så smagen er i top og retterne stylet, så jeres produkt fremstår eksklusivt og professionelt.</p>
             </div>
         </section>
     </main>
