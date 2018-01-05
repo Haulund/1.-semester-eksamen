@@ -5,14 +5,14 @@ footer {
     margin: 0 auto;
     margin-top: 10%;
 
+    @media screen and (min-width: $siteWidthWrapperMedium) {
+        max-width: $lg;
+    }
+
     @media screen and (min-width: $siteWidthWrapper) {
-      max-width: $lg;
-  }
-
-  @media screen and (min-width: $siteWidthWrapper) {
-      max-width: $lg;
-  }
-
+      max-width: $xlg;
+    }
+    
     .logo {
       max-width: 588px;
       margin: auto;

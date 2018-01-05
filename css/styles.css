@@ -141,12 +141,12 @@ footer {
   max-width: 100%;
   margin: 0 auto;
   margin-top: 10%; }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1170px) {
     footer {
       max-width: 1170px; } }
   @media screen and (min-width: 1440px) {
     footer {
-      max-width: 1170px; } }
+      max-width: 1400px; } }
   footer .logo {
     max-width: 588px;
     margin: auto;
@@ -202,6 +202,9 @@ main {
   @media screen and (min-width: 1170px) {
     main {
       max-width: 1170px; } }
+  @media screen and (min-width: 1440px) {
+    main {
+      max-width: 1400px; } }
 
 @media screen and (min-width: 769px) {
   section {

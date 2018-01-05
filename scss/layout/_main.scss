@@ -3,22 +3,14 @@ main {
     margin: 0 auto;
     padding: 15px;
 
-    // @media screen and (min-width: $md) {
-    //     padding: 0 15px;
-    // }
-
-
     @media screen and (min-width: $siteWidthWrapperMedium) {
         max-width: $lg;
     }
 
-    // @media screen and (min-width: $md) {
-    //     max-width: $md;
-    // }
+    @media screen and (min-width: $siteWidthWrapper) {
+        max-width: $xlg;
+    }
 
-    // @media screen and (min-width: $siteWidthWrapper) {
-    //     max-width: $lg;
-    // }
 }
 
 section {
