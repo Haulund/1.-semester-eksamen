@@ -368,18 +368,18 @@ section.videoheader:after {
   right: 0;
   z-index: 2;
 }
-section.videoheader .bg-placeholder {
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 section.videoheader .videowrapper {
   height: 100vh;
   position: relative;
+}
+section.videoheader .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 12;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
 }
 section.videoheader .container {
   position: relative;
@@ -396,13 +396,9 @@ section.videoheader .background-video {
   bottom: 0;
 }
 section.videoheader .videologo {
-  position: absolute;
   width: 290px;
-  margin-top: 224px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  left: 50%;
-  z-index: 11;
+  display: block;
+  margin: 0 auto 30px;
 }
 section.videoheader video,
 section.videoheader source {
@@ -457,14 +453,9 @@ section.videoheader .container {
   margin: 30px auto;
 }
 section.videoheader h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
   color: white;
   font-size: 40px;
   text-align: center;
-  z-index: 10;
 }
 section.videoheader .border-bottom {
   height: 4px;
