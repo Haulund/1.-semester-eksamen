@@ -1,9 +1,17 @@
 footer {
-    max-width: $siteWidthWrapper;
-    margin: 0 auto;
     background: $lightgrey;
     padding: 15px;
+    max-width: 100%;
+    margin: 0 auto;
     margin-top: 10%;
+
+    @media screen and (min-width: $siteWidthWrapperMedium) {
+        max-width: $siteWidthWrapperMedium;
+    }
+
+    @media screen and (min-width: $siteWidthWrapper) {
+        max-width: $siteWidthWrapper;
+    }
 
     .logo {
       max-width: 588px;
