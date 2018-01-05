@@ -273,7 +273,7 @@ main {
 
 @media screen and (min-width: 769px) {
   section {
-    padding: 100px 0 0;
+    padding: 170px 0 0;
   }
 }
 
@@ -398,7 +398,7 @@ section.videoheader .background-video {
 section.videoheader .videologo {
   width: 290px;
   display: block;
-  margin: 0 auto 30px;
+  margin: 0 auto 50px;
 }
 section.videoheader video,
 section.videoheader source {
