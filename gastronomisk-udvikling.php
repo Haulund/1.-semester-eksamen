@@ -29,13 +29,14 @@
         </svg>
     </section>
 
-    <section>
-      <blockquote>
-        <p>gastronomisk udvikling text</p>
-      </blockquote>
-    </section>
 
 <main>
+  <section class="quote">
+      <blockquote>
+          <p>I gastronomisk innovation vil vi udforske og udvide gastronomiens grænser. Vi kan hjælpe med at udvikle nytænkende opskrifter til jeres produkter eller inspirere med retter tematiseret til jeres event.</p>
+      </blockquote>
+  </section>
+
     <section class="textimage">
         <figure><img src="https://source.unsplash.com/900x1000"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
