@@ -6,13 +6,13 @@ footer {
     margin-top: 10%;
 
     @media screen and (min-width: $siteWidthWrapperMedium) {
-        max-width: $siteWidthWrapperMedium;
+        max-width: $lg;
     }
 
     @media screen and (min-width: $siteWidthWrapper) {
-        max-width: $siteWidthWrapper;
+      max-width: $xlg;
     }
-
+    
     .logo {
       max-width: 588px;
       margin: auto;
