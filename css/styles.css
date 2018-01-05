@@ -265,6 +265,7 @@ section.videoheader {
   position: relative;
   overflow: hidden;
   padding-top: 0;
+<<<<<<< HEAD
   /* indsat af Steffen Videologo*/ }
   section.videoheader:after {
     content: '';
@@ -402,6 +403,178 @@ section.videoheader {
       top: -100px; }
     section.videoheader .border-bottom:hover {
       height: 30px; }
+=======
+  /* indsat af Steffen Videologo*/
+}
+section.videoheader:after {
+  content: '';
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+section.videoheader .videowrapper {
+  height: 100vh;
+  position: relative;
+}
+section.videoheader .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 12;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+section.videoheader .container {
+  position: relative;
+}
+section.videoheader .background-video {
+  background-position: top center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+section.videoheader .videologo {
+  width: 320px;
+  display: block;
+  margin: 0 auto 50px;
+}
+section.videoheader video,
+section.videoheader source {
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+}
+section.videoheader .loaded .ytplayer-container {
+  display: block;
+}
+section.videoheader .loaded .placeholder-image {
+  opacity: 0;
+}
+section.videoheader .ytplayer-container {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+section.videoheader .placeholder-image {
+  height: 100%;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+section.videoheader .ytplayer-shield {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+section.videoheader .container {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0 30px 0 30px;
+  margin: 30px auto;
+}
+section.videoheader h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+section.videoheader .border-bottom {
+  height: 4px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+section.videoheader .border-bottom .arrow {
+  width: 20px;
+  height: 17px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 4;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  -webkit-animation: arrow-movement 1000ms ease-in-out infinite;
+          animation: arrow-movement 1000ms ease-in-out infinite;
+}
+section.videoheader .border-bottom .arrow:before, section.videoheader .border-bottom .arrow:after {
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+}
+section.videoheader .border-bottom .arrow:before {
+  -webkit-transform: rotate(45deg) translateX(-16%);
+          transform: rotate(45deg) translateX(-16%);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+section.videoheader .border-bottom .arrow:after {
+  -webkit-transform: rotate(-45deg) translateX(16%);
+          transform: rotate(-45deg) translateX(16%);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+section.videoheader .border-bottom .circle {
+  width: 100px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+}
+section.videoheader .border-bottom:before {
+  content: '';
+  background: transparent;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+}
+section.videoheader .border-bottom:hover {
+  height: 30px;
+}
+>>>>>>> 86dfaeab5f0e9d79e87bddd1d5503a8b936db2a9
 
 section.headerpic {
   padding-top: 0;
