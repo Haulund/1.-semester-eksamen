@@ -1,13 +1,13 @@
 // Animation
 @keyframes arrow-movement {
-    0% { 
+    0% {
         opacity: 0;
         bottom: 20px;
     }
     70% {
         opacity: 1;
     }
-    100% { 
+    100% {
         opacity: 0;
     }
 }
@@ -29,20 +29,18 @@ section.videoheader {
         z-index: 2;
     }
 
-    .bg-placeholder {
-        // background-image: url(''); //FALLBACK
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-    }
-
     .videowrapper {
         height: 100vh;
         position: relative;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 12;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
 
     .container {
@@ -65,14 +63,10 @@ section.videoheader {
     /* indsat af Steffen Videologo*/
 
     .videologo {
-      position: absolute;
       width: 290px;
-      margin-top: 224px;
-      transform: translateX(-50%);
-      left: 50%;
-      z-index: 11;
+      display: block;
+      margin: 0 auto 50px;
     }
-
 
 
     video,
@@ -137,14 +131,9 @@ section.videoheader {
     }
 
     h1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 1;
         color: white;
         font-size: 40px;
         text-align: center;
-        z-index: 10;
     }
 
     //BORDER
@@ -175,7 +164,7 @@ section.videoheader {
                 content: '';
                 background: $black;
                 display: block;
-                height: 3px; 
+                height: 3px;
                 position: absolute;
                 top: 0;
                 left: 0;
