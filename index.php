@@ -20,7 +20,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
-
+    <div class="arrow arrow-first"></div>
     <section class="videoheader">
         <div class="videowrapper">
           <div class="videologo"><!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
