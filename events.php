@@ -41,25 +41,32 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
       </blockquote>
     </section>
 
+    <section class="textimage image-right">
+        <figure><img src="https://source.unsplash.com/900x800"></figure>
+        <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
+            <h2>Vi hjælper med det hele.</h2>
+            <p>Ved kreativ sparring kan vi i fællesskab skabe jeres event, hvor vi kan stå for det hele eller dele af arrangementet alt efter jeres ønsker.</p>
+            <p>Det gastronomiske omdrejningspunkt, udvikler vi sammen med kokke, der har baggrund i nogle af landets toprestauranter. Kokkene er højt specialiserede inden for mange forskellige grene af gastronomien det giver os mulighed for at håndplukke den kok, som passer bedst til hver enkelt opgave.</p>
+            <p>Arrangementet kan afholdes i vores lokaler, Atelier 1B, som er vores kreative gastronomiske værksted og eksperimentarium, eller vi kan hjælpe med at finde egnede lokaler.</p>
+            <p>Vi kan derudover tilbyde assistance i alle elementer af arrangementet ved at benytte vores store netværk af specialister: Skarpe kommunikatører, dygtige fotografer og professionelle værtinder, for blot at nævne nogle af mulighederne - ingen opgave er for lille eller stor.</p>
+        </div>
+    </section>
+
     <section class="textimage">
         <figure><img src="https://source.unsplash.com/900x1000"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
-            <h2>Lorem ipsum dolor</h2>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-        </div>
+            <h2>Case - Topmøde for Dansk Industri</h2>
+            <p>Dansk Industri ønskede at indlede deres årlige topmøde ved at byde de tusind højt profilerede gæster, topembedsmænd og ministre på en række oplevelser med ny teknologi og innovative tanker, som skulle tale til både følelser og sanser. Vores opgave var at udvikle konceptet for, hvordan man kunne bringe smagssansen i spil.</p>
+            <p>Til opgaven valgte vi fire kokke fra den eksperimenterende kokkesammenslutning NaCl, som arbejder med at strække grænserne for gastronomien og med små retter som  f.eks.hvid chokolade med tørret fisk og tang, viste vi topmødedeltagerne, at god smag ikke nødvendigvis kommer i den form, man forventer.</p>
+            </div>
     </section>
 
     <section class="textimage image-right">
         <figure><img src="https://source.unsplash.com/900x800"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
-            <h2>Lorem ipsum dolor</h2>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <h2>Vi inviterer</h2>
+            <p>I kan også invitere kunder og medarbejdere med til et af de arrangementer vi selv afholder under mere afslappede former.</p>
+            <p>I vores egne hyggelige lokaler, Ateliér 1B, kan I for eksempel opleve en skøn forening af kunst og mad i “Kærs kunstcafé”, eller netværke under middagen ved  “Kokkens Bord”, hvor kokke, fra vores netværk, på skift sammensætter en menu med tema efter eget valg. </p>
         </div>
     </section>
   </main>
