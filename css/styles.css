@@ -51,12 +51,137 @@ header {
   left: 0;
   z-index: 999999;
 }
+header nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #200017;
+  overflow-x: hidden;
+  padding-top: 15px;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+@media screen and (min-width: 769px) {
+  header nav {
+    padding-top: 60px;
+  }
+}
+header nav ul {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+header nav ul li a {
+  padding: 0px 0px 40px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 769px) {
+  header nav ul li a {
+    font-size: 30px;
+  }
+}
+header nav .closebtn {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+header nav .closebtn span {
+  font-size: 40px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  margin-top: -3px;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+header nav .closebtn:hover {
+  background: white;
+}
+header nav .closebtn:hover span {
+  color: black;
+}
+
+.openbtn {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  background: black;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+.openbtn:hover {
+  background: #f8f8f8;
+}
+.openbtn:hover span {
+  background: black;
+}
+.openbtn:hover span:before, .openbtn:hover span:after {
+  background: black;
+}
+.openbtn span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+.openbtn span:before, .openbtn span:after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  position: absolute;
+  margin-top: -8px;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+.openbtn span:after {
+  margin-top: 8px;
+}
 
 footer {
   max-width: 1440px;
   margin: 0 auto;
   background: #ebebeb;
   padding: 15px;
+  margin-top: 10%;
 }
 footer .logo {
   max-width: 588px;
@@ -82,6 +207,9 @@ footer ul {
 }
 footer li {
   display: inline-block;
+}
+footer li a {
+  color: black;
 }
 footer li:before {
   content: '\00a0\2022\00a0\00a0';
@@ -136,76 +264,10 @@ section {
 }
 @media screen and (min-width: 769px) {
   section {
-    padding: 60px 0 0;
+    padding: 15% 0 0;
   }
 }
 
-/* The side navigation menu */
-.sidenav {
-  height: 100%;
-  /* 100% Full-height */
-  width: 0;
-  /* 0 width - change this with JavaScript */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Stay on top */
-  top: 0;
-  /* Stay at the top */
-  right: 0;
-  background-color: #111;
-  /* Black*/
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 60px;
-  /* Place content 60px from the top */
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  -webkit-transition: margin-left .5s;
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
-}
 blockquote p {
   font-family: Roboto;
   font-size: 40px;
@@ -272,7 +334,6 @@ section.videoheader:after {
   z-index: 2;
 }
 section.videoheader .bg-placeholder {
-  background-image: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/10/mountains_hd.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -377,9 +438,31 @@ section.videoheader .border-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
+}
+section.videoheader .border-bottom .arrow {
+  width: 25px;
+  height: 25px;
+  background: red;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 4;
+}
+section.videoheader .border-bottom .circle {
+  width: 100px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
 }
 section.videoheader .border-bottom:before {
   content: '';

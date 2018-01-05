@@ -8,8 +8,8 @@
   <ul>
     <li>Frederiksborggade 1b 4.Th</li>
     <li>1360 København K</li>
-    <li>info@gastronomiskinnovation.dk</li>
-    <li>+45 3110 6953</li>
+    <li><a href="mailto:info@gastronomiskinnovation.dk"></a>info@gastronomiskinnovation.dk</li>
+    <li><a href="tel:+4531106953"></a>+45 3110 6953</li>
   </ul>
 </div>
 
@@ -19,9 +19,9 @@
 
 <div class="list2">
   <ul class="socials">
-    <li>FACEBOOK</li>
-    <li>INSTAGRAM</li>
-    <li>SE VORES SMILEYRAPPORT</li>
+    <li><a href="https://www.facebook.com/Gastronomisk-Innovation-281933641918247/?ref=hl">FACEBOOK</a></li>
+    <li><a href="https://www.instagram.com/explore/locations/644003540/gastronomisk-innovation/">INSTAGRAM</a></li>
+    <li><a href="http://www.findsmiley.dk/559100">SE VORES SMILEYRAPPORT</a></li>
   </ul>
   </div>
 
