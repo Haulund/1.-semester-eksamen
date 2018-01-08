@@ -54,7 +54,7 @@
                 </p>
             </blockquote>
         </section>
-    
+
         <!-- Text image -->
         <section class="textimage">
             <figure><img src="img/forside/eventsmedgastronomiicentrum.jpg"></figure>
@@ -62,9 +62,13 @@
               <h2>Events med gastronomi i centrum</h2>
               <p>Vi har hjulpet mange virksomheder med at udvikle events og koncepter med fokus på gastronomi.</p>
               <p>Vi kan stå for hele eller dele af konceptudviklingen og trækker på et stort netværk af dygtige specialister i det omfang, der er behov for det – ingen opgave er for lille eller stor.</p>
-          </div>
+              <a class="button" href="events.php">
+                Læs mere her
+              </a>
+            </div>
+
         </section>
-    
+
         <!-- Text image right -->
         <section class="textimage image-right">
             <figure><img src="img/forside/gastronomiskudvikling.jpg"></figure>
@@ -72,7 +76,10 @@
                 <h2>Gastronomisk udvikling</h2>
                 <p>Ønsker I at få professionelle kokke fra landets toprestauranter til at udvikle opskrifter med jeres produkter, kan vi også hjælpe med det.</p>
                 <p>Vi garanterer, at opskrifterne er gennemtestede, så smagen er i top og retterne stylet, så jeres produkt fremstår eksklusivt og professionelt.</p>
-            </div>
+                <a class="button" href="gastronomisk-udvikling.php">
+                  Læs mere her
+                </a>
+              </div>
         </section>
     </main>
 
