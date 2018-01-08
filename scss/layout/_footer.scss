@@ -12,7 +12,7 @@ footer {
     @media screen and (min-width: $siteWidthWrapper) {
       max-width: $xlg;
     }
-    
+
     .logo {
       max-width: 588px;
       margin: auto;
@@ -62,20 +62,17 @@ footer {
       li:first-child:before{
         content: '';
       }
-    }
 
 
-
-
-    @media screen and (min-width: $md) {
+      .button {
+        @include button($purple, $white);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 75px;
+      }
+      
+      @media screen and (min-width: $md) {
       padding: 60px;
-    }
-
-    .button {
-      @include button($purple, $white);
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 25px 40px;
-      margin-top: 75px;
+     }
     }

@@ -28,6 +28,11 @@
                 </svg>
             </div>
             <h1>Med gastronomi i centrum er vi eksperter i eventplanlægning og madudvikling til din virksomhed</h1>
+            <div class="buttonwrapper">
+              <a class="button" href="#">
+                Book et møde
+              </a>
+            </div>
         </div>
         <div id="background-video" class="background-video" data-id="aD1LZVoTXYc"></div>
       </div>

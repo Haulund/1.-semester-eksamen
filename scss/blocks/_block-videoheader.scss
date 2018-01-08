@@ -41,6 +41,51 @@ section.videoheader {
       z-index: 12;
       transform: translate(-50%, -50%);
       text-align: center;
+
+      .button {
+        @include button($white, $black);
+        position: relative;
+        margin-top: 75px;
+
+        &:hover {
+          background: darken(white, 15%);
+        }
+      }
+
+
+      a {
+        // background-color: white;
+        // color: black;
+        // text-align: center;
+        // margin: 0;
+        // transform: none;
+        // left: auto;
+        // position: relative;
+        // display: inline-block;
+        // margin-top: 50px;
+        // transition: 300ms ease;
+        // padding: 25px 60px 25px 40px;
+
+        // &:hover {
+        //   background: darken(white, 15%);
+        // }
+
+        &:after {
+          content: '›';
+          position: absolute;
+          display: inline-block;
+          font-size: 30px;
+          transform: none;
+          right: 25px;
+          top: 14px;
+
+        }
+      }
+
+    }
+
+    .buttonwrapper {
+      width: 100%;
     }
 
     .container {
@@ -66,6 +111,8 @@ section.videoheader {
         display: block;
         margin: 0 auto 50px;
     }
+
+
 
     video,
     source {
