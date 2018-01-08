@@ -34,11 +34,10 @@
           <blockquote>
               <p>Vi er specialister i skræddersyede mad- og vinoplevelser og tilbyder virksomheder gastronomisk event-planlægning og konceptudvikling. </p>
           </blockquote>
-      </section>
-
-      <a class="button" href="#">
-          Kontakt os idag
-      </a>
+          <a class="button" href="#">
+                Kontakt os idag
+            </a>
+        </section>
 
       <section class="textimage">
           <figure><img src="img/hvemervi/historienbag.jpg"></figure>

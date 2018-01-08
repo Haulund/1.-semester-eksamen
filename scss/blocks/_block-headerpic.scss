@@ -3,7 +3,7 @@ section.headerpic {
   @include bgimage;
   padding-top: 0;
   position: relative;
-  height: 47vh;
+  height: 50vh;
 
     a {
       position: absolute;
@@ -13,7 +13,8 @@ section.headerpic {
       left: 50%;
       z-index: 11;
       display: block;
-      
+    
+
     }
 
     h1 {
