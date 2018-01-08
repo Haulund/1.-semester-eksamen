@@ -3,15 +3,17 @@ section.headerpic {
   @include bgimage;
   padding-top: 0;
   position: relative;
-  height: 45vh;
+  height: 47vh;
 
-    div {
+    a {
       position: absolute;
       width: 290px;
       transform: translate(-50%, -50%);
       top: 59px;
       left: 50%;
       z-index: 11;
+      display: block;
+      
     }
 
     h1 {
