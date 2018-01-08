@@ -14,8 +14,28 @@
   display: inline-block;
   transition: 300ms ease;
 
+  text-align: center;
+  margin: 0;
+  transform: none;
+  left: auto;
+  position: relative;
+  margin-top: 50px;
+  padding: 25px 60px 25px 40px;
+
+
+
   &:hover {
     background: lighten($color, 10%);
+  }
+ 
+  &:after {
+    content: '›';
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    transform: none;
+    right: 25px;
+    top: 14px;
   }
 }
 

@@ -35,6 +35,10 @@
           </blockquote>
       </section>
 
+      <a class="button" href="#">
+          Kontakt os idag
+      </a>
+
       <section class="textimage">
           <figure><img src="img/hvemervi/historienbag.jpg"></figure>
           <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
