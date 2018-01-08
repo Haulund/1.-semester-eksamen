@@ -18,3 +18,9 @@
     background: lighten($color, 10%);
   }
 }
+
+@mixin bgimage {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
