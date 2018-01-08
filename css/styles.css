@@ -95,9 +95,7 @@ header nav ul li a {
 header nav .closebtn {
   position: absolute;
   right: 40px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  bottom: 40px;
   display: block;
   width: 50px;
   height: 50px;
@@ -105,6 +103,14 @@ header nav .closebtn {
   border: 2px solid white;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
+}
+@media screen and (min-width: 769px) {
+  header nav .closebtn {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
 }
 header nav .closebtn span {
   font-size: 40px;
@@ -129,10 +135,8 @@ header nav .closebtn:hover span {
 .openbtn {
   position: fixed;
   right: 40px;
-  top: 50%;
+  bottom: 40px;
   background: black;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   display: block;
   width: 50px;
   height: 50px;
@@ -140,6 +144,14 @@ header nav .closebtn:hover span {
   cursor: pointer;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
+}
+@media screen and (min-width: 769px) {
+  .openbtn {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
 }
 .openbtn:hover {
   background: #f8f8f8;
@@ -326,6 +338,48 @@ blockquote span {
   display: block;
   font-size: 20px;
   font-weight: 400;
+}
+
+section.quote .button {
+  background: #200017;
+  color: white;
+  border-radius: 35px;
+  display: inline-block;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  -webkit-transform: none;
+          transform: none;
+  left: auto;
+  position: relative;
+  margin-top: 50px;
+  padding: 25px 60px 25px 40px;
+  position: relative;
+  margin-top: 75px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+section.quote .button:hover {
+  background: #53003c;
+}
+section.quote .button:after {
+  content: '›';
+  position: absolute;
+  display: inline-block;
+  font-size: 30px;
+  -webkit-transform: none;
+          transform: none;
+  right: 25px;
+  top: 14px;
+  color: white;
+}
+section.quote .button:hover {
+  background: black;
 }
 
 @media screen and (min-width: 769px) {
@@ -654,7 +708,7 @@ section.headerpic {
   background-size: cover;
   padding-top: 0;
   position: relative;
-  height: 47vh;
+  height: 50vh;
 }
 section.headerpic a {
   position: absolute;

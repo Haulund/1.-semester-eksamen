@@ -57,7 +57,7 @@
 
         <!-- Text image -->
         <section class="textimage">
-            <figure><img src="img/forside/eventsmedgastronomiicentrum.jpg"></figure>
+            <figure><img alt="Mad billede" src="img/forside/eventsmedgastronomiicentrum.jpg"></figure>
             <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
               <h2>Events med gastronomi i centrum</h2>
               <p>Vi har hjulpet mange virksomheder med at udvikle events og koncepter med fokus på gastronomi.</p>
@@ -71,7 +71,7 @@
 
         <!-- Text image right -->
         <section class="textimage image-right">
-            <figure><img src="img/forside/gastronomiskudvikling.jpg"></figure>
+            <figure><img alt="Mad billede" src="img/forside/gastronomiskudvikling.jpg"></figure>
             <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
                 <h2>Gastronomisk udvikling</h2>
                 <p>Ønsker I at få professionelle kokke fra landets toprestauranter til at udvikle opskrifter med jeres produkter, kan vi også hjælpe med det.</p>

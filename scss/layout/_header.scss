@@ -48,14 +48,19 @@ header {
         .closebtn {
             position: absolute;
             right: 40px;
-            top: 50%;
-            transform: translateY(-50%);
+            bottom: 40px;
             display: block;
             width: 50px;
             height: 50px;
             border-radius: 50%;
             border: 2px solid $white;
             transition: 300ms ease;
+
+            @media screen and (min-width: $md) {
+                top: 50%;
+                bottom: auto;
+                transform: translateY(-50%);
+            }
 
             span {
                 font-size: 40px;
@@ -81,15 +86,21 @@ header {
 .openbtn {
     position: fixed;
     right: 40px;
-    top: 50%;
+    bottom: 40px;
     background: $black;
-    transform: translateY(-50%);
     display: block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
     transition: 300ms ease;
+
+    @media screen and (min-width: $md) {
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%);
+    }
+
     &:hover {
         background: #f8f8f8;
         span {

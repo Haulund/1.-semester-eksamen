@@ -34,14 +34,13 @@
           <blockquote>
               <p>Vi er specialister i skræddersyede mad- og vinoplevelser og tilbyder virksomheder gastronomisk event-planlægning og konceptudvikling. </p>
           </blockquote>
-      </section>
-
-      <a class="button" href="#">
-          Kontakt os idag
-      </a>
+          <a class="button" href="#">
+                Kontakt os idag
+            </a>
+        </section>
 
       <section class="textimage">
-          <figure><img src="img/hvemervi/historienbag.jpg"></figure>
+          <figure><img alt="Historien bag" src="img/hvemervi/historienbag.jpg"></figure>
           <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
               <h2>Historien bag</h2>
               <p>I 2007 faciliterede vi en gruppe af unge, nyuddannede kokke som ønskede at udfordre dem selv og andre med at fremstille nye og innovative retter til gourmetrestauranter. Arrangementerne fik stor opmærksomhed, og andre virksomheder begyndte at kontakte os for at købe et lignende “show”. Det blev grundlaget for virksomheden Gastronomisk Innovation.</p>
@@ -51,7 +50,7 @@
       </section>
 
       <section class="textimage image-right">
-          <figure><img src="img/hvemervi/atelier1b.jpg"></figure>
+          <figure><img alt="Atelier 1b" src="img/hvemervi/atelier1b.jpg"></figure>
           <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
               <h2>Atelier 1B</h2>
               <p>Gastronomisk Innovations lokaler på Frederiksborggade 1B ved Kultorvet i København også kaldet Atelier 1B, er vores kreative gastronomiske værksted og eksperimentarium.
