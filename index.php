@@ -46,6 +46,7 @@
     <!-- MAIN -->
     <main>
 
+        <!-- Quote -->
         <section class="quote">
             <blockquote>
                 <p>“Mad er et af de bedste værktøjer til at samle folk, til at fortælle historier og skabe debat”
@@ -53,7 +54,8 @@
                 </p>
             </blockquote>
         </section>
-
+    
+        <!-- Text image -->
         <section class="textimage">
             <figure><img src="img/forside/eventsmedgastronomiicentrum.jpg"></figure>
             <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
@@ -62,7 +64,8 @@
               <p>Vi kan stå for hele eller dele af konceptudviklingen og trækker på et stort netværk af dygtige specialister i det omfang, der er behov for det – ingen opgave er for lille eller stor.</p>
           </div>
         </section>
-
+    
+        <!-- Text image right -->
         <section class="textimage image-right">
             <figure><img src="img/forside/gastronomiskudvikling.jpg"></figure>
             <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
