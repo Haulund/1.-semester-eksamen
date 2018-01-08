@@ -1,0 +1,109 @@
+.kontaktperson {
+    padding-top: 5px;
+
+    @media screen and (min-width: $md) {
+        padding-top: 15px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-top: 60px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .column {
+        padding: 0;
+        flex: 100%;
+        max-width: 100%;
+
+        @media screen and (min-width: $md) {
+            padding: 0 10px;
+        }
+
+        .person {
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+            background: #f8f8f8;
+            display: block;
+            margin-bottom: 20px;
+
+            .text {
+                padding: 20px;
+                min-height: 300px;
+                position: relative;
+
+
+                .social {
+                    color: $black;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    padding-bottom: 40px;
+                }
+
+                .date {
+                    color: #917e7e;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    margin-bottom: 0;
+                    color: $black;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: $md) {
+        .column {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    @media screen and (min-width: $lg) {
+        .column {
+            flex: 25%;
+            max-width: 25%;
+        }
+    }
+
+    ul{
+
+      list-style: none;
+      position: absolute;
+      bottom: 20px;
+      border-top: 1px solid $black;
+      padding-top: 20px;
+      width: calc(100% - 40px);
+
+      li{
+        text-align: left;
+
+        &:nth-of-type(2){
+          svg{
+          margin-left: 2px;
+        }
+        span{
+          padding-left: 46px;
+        }
+      }
+        svg{
+          display: inline-block;
+          height: 16px;
+
+        }
+        span {
+          padding-left: 40px;
+        }
+      }
+    }
+}
