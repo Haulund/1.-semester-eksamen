@@ -2,7 +2,7 @@ section.textimage {
     @media screen and (min-width: $md) {
         @include clearfix;
     }
-    
+
     figure {
 
         @media screen and (min-width: $md) {
@@ -35,5 +35,8 @@ section.textimage {
                 float: left;
             }
         }
+    }
+    .button{
+      @include button($white,$black);
     }
 }
