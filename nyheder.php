@@ -35,7 +35,7 @@
             <div class="row"> 
                 <div class="column">
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/facebook-opslag_01.jpg">
+                        <img alt="social nyhed" src="img/nyheder/facebook-opslag_01.jpg">
                         <div class="text">
                             <div class="social">Facebook</div>
                             <div class="date">12. Januar 2018</div>
@@ -43,7 +43,7 @@
                         </div>
                     </a>
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/instagram-opslag_05.jpg">
+                        <img alt="social nyhed" src="img/nyheder/instagram-opslag_05.jpg">
                         <div class="text">
                             <div class="social">Instagram</div>
                             <div class="date">03. november 2017</div>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="column">
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/facebook-opslag_02.jpg">
+                        <img alt="social nyhed" src="img/nyheder/facebook-opslag_02.jpg">
                         <div class="text">
                             <div class="social">Facebook</div>
                             <div class="date">31. December 2017</div>
@@ -61,7 +61,7 @@
                         </div>
                     </a>
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/instagram-opslag_02.jpg">
+                        <img alt="social nyhed" src="img/nyheder/instagram-opslag_02.jpg">
                         <div class="text">
                             <div class="social">Instagram</div>
                             <div class="date">14. Oktober 2017</div>
@@ -69,7 +69,7 @@
                         </div>
                     </a>
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/instagram-opslag_06.jpg">
+                        <img alt="social nyhed" src="img/nyheder/instagram-opslag_06.jpg">
                         <div class="text">
                             <div class="social">Instagram</div>
                             <div class="date">21. Juli 2017</div>
@@ -78,7 +78,7 @@
                 </div> 
                 <div class="column">
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/instagram-opslag_01.jpg">
+                        <img alt="social nyhed" src="img/nyheder/instagram-opslag_01.jpg">
                         <div class="text">
                             <div class="social">Instagram</div>
                             <div class="date">22. December 2017</div>
@@ -86,7 +86,7 @@
                         </div>
                     </a>
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/facebook-opslag_04.jpg">
+                        <img alt="social nyhed" src="img/nyheder/facebook-opslag_04.jpg">
                         <div class="text">
                             <div class="social">Facebook</div>
                             <div class="date">29. september 2017</div>
@@ -94,7 +94,7 @@
                         </div>
                     </a>
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/instagram-opslag_04.jpg">
+                        <img alt="social nyhed" src="img/nyheder/instagram-opslag_04.jpg">
                         <div class="text">
                             <div class="social">Facebook</div>
                             <div class="date">31. Maj 2017</div>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="column">
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/facebook-opslag_03.jpg">
+                        <img alt="social nyhed" src="img/nyheder/facebook-opslag_03.jpg">
                         <div class="text">
                             <div class="social">Facebook</div>
                             <div class="date">28. november 2017</div>
@@ -111,7 +111,7 @@
                         </div>
                     </a>
                     <a href="#" class="news-item">
-                        <img src="img/nyheder/instagram-opslag_03.jpg">
+                        <img alt="social nyhed" src="img/nyheder/instagram-opslag_03.jpg">
                         <div class="text">
                             <div class="social">Instagram</div>
                             <div class="date">04. August 2017</div>

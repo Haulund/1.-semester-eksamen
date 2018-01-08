@@ -38,7 +38,7 @@
   </section>
 
     <section class="textimage">
-        <figure><img src="img/gastronomiskudvikling/foodstyling.jpg"></figure>
+        <figure><img alt="Food styling" src="img/gastronomiskudvikling/foodstyling.jpg"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
             <h2>Opskriftsudvikling og FoodStyling</h2>
             <p>Ønsker I at få professionelle kokke fra landets toprestauranter til at udvikle opskrifter med jeres produkter, kan vi også hjælpe med det.
@@ -47,7 +47,7 @@
     </section>
 
     <section class="textimage image-right">
-        <figure><img src="img/gastronomiskudvikling/bronumsnaps.jpg"></figure>
+        <figure><img alt="Snaps" src="img/gastronomiskudvikling/bronumsnaps.jpg"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
             <h2>Case - Brøndum Snaps</h2>
             <p>Da Brøndum Snaps skulle relanceres, ønskede virksomheden at henvende sig til et bredere/yngre publikum end den typiske snapsedrikker.</p>
