@@ -54,7 +54,7 @@
 		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                             </g>
                         </svg>
-                        <span>+45 27110217</span>
+                        <a href="tel:+4527110217">+45 27110217</a>
                       </li>
                       <li>
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -93,7 +93,7 @@
       		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                                   </g>
                               </svg>
-                              <span>+45 53761776</span>
+                              <a href="tel:4553761776">+45 53761776</a>
                             </li>
                             <li>
                               <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -132,7 +132,7 @@
             		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                                         </g>
                                     </svg>
-                                    <span>+45 40291687</span>
+                                    <a href="#+4540291687">+45 40291687</a>
                                   </li>
                                   <li>
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -171,7 +171,7 @@
                   		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                                               </g>
                                           </svg>
-                                          <span>+45 3110 6953</span>
+                                          <a href="tel:+453110 6953">+45 3110 6953</a>
                                         </li>
                                         <li>
                                           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
