@@ -14,11 +14,15 @@ footer {
     }
 
     .logo {
-      max-width: 588px;
+      max-width: 300px;
       margin: auto;
       margin-top: 93px;
 
-      svg{
+      @media screen and (min-width: $md) {
+        max-width: 588px;
+      }
+
+      svg {
         width: 100%;
         }
       }
@@ -42,7 +46,12 @@ footer {
       }
 
       li {
-        display:inline-block;
+        display:block;
+        margin-bottom: 10px;
+ 
+        @media screen and (min-width: $md) {
+          display: inline-block;
+        }
 
         a {
           color: black;
@@ -50,19 +59,20 @@ footer {
 
       }
 
-      li:before {
-        content: '\00a0\2022\00a0\00a0';
-	      color:#999;
-	      color:rgba(0,0,0,1);
-	      font-size:11px;
-        padding-left: 1em;
-        padding-right: 1em;
+      @media screen and (min-width: $md) {
+        li:before {
+          content: '\00a0\2022\00a0\00a0';
+          color:#999;
+          color:rgba(0,0,0,1);
+          font-size:11px;
+          padding-left: 1em;
+          padding-right: 1em;
         }
-
-      li:first-child:before{
-        content: '';
+      
+        li:first-child:before{
+          content: '';
+        }
       }
-
 
       .button {
         @include button($purple, $white);

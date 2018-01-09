@@ -13,7 +13,7 @@
   border-radius: 35px;
   display: inline-block;
   transition: 300ms ease;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
@@ -24,6 +24,9 @@
   margin-top: 50px;
   padding: 25px 60px 25px 40px;
 
+  @media screen and (min-width: $md) {
+    font-size: 17px;
+  }
 
   &:hover {
     background: lighten($color, 10%);

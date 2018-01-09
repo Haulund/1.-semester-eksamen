@@ -31,12 +31,23 @@
             background: #f8f8f8;
             display: block;
             margin-bottom: 20px;
+            
+            h2 {
+                font-size: 28px;
+            
+                @media screen and (min-width: $md) {
+                    font-size: 40px;
+                }
+            }
 
             .text {
                 padding: 20px;
-                min-height: 300px;
+                min-height: 220px;
                 position: relative;
 
+                @media screen and (min-width: $md) {
+                    min-height: 300px;
+                }
 
                 .social {
                     color: $black;
@@ -104,6 +115,10 @@
         span, a {
           padding-left: 40px;
           color: black;
+
+          &:hover {
+              text-decoration: underline;
+          }
         }
       }
     }
