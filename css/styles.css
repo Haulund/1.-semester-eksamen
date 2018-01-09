@@ -503,6 +503,20 @@ section.textimage .button:after {
   top: 14px;
   color: black;
 }
+section.textimage .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+section.textimage .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 @-webkit-keyframes arrow-movement {
   0% {
