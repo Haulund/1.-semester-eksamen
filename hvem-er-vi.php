@@ -184,13 +184,18 @@
       </section>
 
       <section class="textimage image-right">
-          <figure><img alt="Atelier 1b" src="img/hvemervi/atelier1b.jpg"></figure>
+          <figure>
+              <div class="videoWrapper">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/aD1LZVoTXYc?controls=0&showinfo=0&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+            </figure>
           <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
               <h2>Atelier 1B</h2>
-              <p>Gastronomisk Innovations lokaler på Frederiksborggade 1B ved Kultorvet i København også kaldet Atelier 1B, er vores kreative gastronomiske værksted og eksperimentarium.
-                 I lokalerne tilbyder vi at afholde forskellige events, produktlancering, teambuilding og workshops og inviterer til spændende arrangementer i flotte rammer midt i København.</p>
+              <p>Gastronomisk Innovations lokaler på Frederiksborggade 1B ved Kultorvet i København også kaldet Atelier 1B, er vores kreative gastronomiske værksted og eksperimentarium.</p>
+                 <p>I lokalerne tilbyder vi at afholde forskellige events, produktlancering, teambuilding og workshops og inviterer til spændende arrangementer i flotte rammer midt i København.</p>
           </div>
       </section>
+
     </main>
 
     <?php include 'footer.php'; ?>
