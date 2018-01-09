@@ -69,7 +69,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
             <p>I vores egne hyggelige lokaler, Ateliér 1B, kan I for eksempel opleve en skøn forening af kunst og mad i “Kærs kunstcafé”, eller netværke under middagen ved  “Kokkens Bord”, hvor kokke, fra vores netværk, på skift sammensætter en menu med tema efter eget valg. </p>
             <p>Tilmeld dig vores nyhedsbrev og få opdateringer om kommende Arrangementer.</p>
 
-        <a class="button" href="kontakt-os.php">
+        <a class="button" href="#popup1">
             Tilmeld dig vores nyhedsbrev
         </a>
         </div>

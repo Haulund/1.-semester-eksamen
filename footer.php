@@ -13,7 +13,7 @@
   </ul>
 </div>
 
-  <a class="button" href="kontakt-os.php">
+  <a class="button" href="#popup1">
       Tilmeld dig vores nyhedsbrev
   </a>
 
@@ -26,3 +26,17 @@
   </div>
 
 </footer>
+
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Tilmeld dig vores Nyhedsbrev</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+      <form class="" action="/index.php" method="post">
+        <input type="email" name="mail" placeholder="Mail">
+        <input type="submit" name="tilmeld" value="Tildmeld">
+      </form>
+		</div>
+	</div>
+</div>

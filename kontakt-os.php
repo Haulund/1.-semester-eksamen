@@ -29,7 +29,7 @@
         </svg>
     </a>
       </section>
-      
+
     <main>
 
     <section class="kontaktperson">
