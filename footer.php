@@ -164,9 +164,9 @@
 		<h2>Tilmeld dig vores Nyhedsbrev</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-      <form class="" action="/index.php" method="post">
+      <form class="" action="#" method="post">
         <input type="email" name="mail" placeholder="Mail">
-        <input type="submit" name="tilmeld" value="Tildmeld">
+        <input type="submit" name="tilmeld" value="Tilmeld">
       </form>
 		</div>
 	</div>
