@@ -15,6 +15,9 @@ div#popup1.overlay {
     opacity: 1;
     }
 
+      h2 {
+        font-size: 28px;
+      }
 
   .popup {
     margin: 70px auto;
@@ -34,11 +37,10 @@ div#popup1.overlay {
 
   .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 5px;
+    right: 20px;
     transition: all 200ms;
     font-size: 30px;
-    font-weight: bold;
     text-decoration: none;
     color: $black;
 
