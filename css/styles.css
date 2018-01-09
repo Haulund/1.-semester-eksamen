@@ -760,8 +760,9 @@ article.articleblock {
         height: 16px; }
       .kontaktperson ul li span, .kontaktperson ul li a {
         padding-left: 40px;
-        color: black; }
-        .kontaktperson ul li span:hover, .kontaktperson ul li a:hover {
+        color: black;
+        cursor: pointer .kontaktperson ul li span, .kontaktperson ul li a; }
+        .kontaktperson ul li span :hover, .kontaktperson ul li a :hover {
           text-decoration: underline; }
 
 section.form h3 {
@@ -817,7 +818,8 @@ section.form form input[type="submit"] {
   position: relative;
   margin-top: 50px;
   padding: 25px 60px 25px 40px;
-  padding: 25px 70px; }
+  padding: 25px 70px;
+  cursor: pointer; }
   @media screen and (min-width: 769px) {
     section.form form input[type="submit"] {
       font-size: 17px; } }
