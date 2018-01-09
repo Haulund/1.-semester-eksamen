@@ -163,7 +163,7 @@
             </a>
             <h1>Med gastronomi i centrum er vi eksperter i eventplanlægning og madudvikling til din virksomhed</h1>
             <div class="buttonwrapper">
-              <a class="button" href="#">
+              <a class="button" href="kontakt-os.php">
                 Book et møde
               </a>
             </div>

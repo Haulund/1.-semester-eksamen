@@ -140,7 +140,7 @@
     <li>Frederiksborggade 1b 4.Th</li>
     <li>1360 København K</li>
     <li><a href="mailto:INFO@GASTRONOMISKINNOVATION.DK">info@gastronomiskinnovation.dk</a></li>
-    <li><a href="tel:+4531106953"></a>+45 3110 6953</li>
+    <li><a href="tel:+4531106953">+45 3110 6953</a></li>
   </ul>
 </div>
 
