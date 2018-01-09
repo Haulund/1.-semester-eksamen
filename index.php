@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,9 +49,9 @@
         <!-- Quote -->
         <section class="quote">
             <blockquote>
-                <p>“Mad er et af de bedste værktøjer til at samle folk, til at fortælle historier og skabe debat”
-                    <span>Rasmus Leck Fischer, Chefkok Gastronomisk Innovation.<span>
-                </p>
+              <p> “Mad er et af de bedste værktøjer til at samle folk, til at fortælle historier og skabe debat”
+                    <span>Rasmus Leck Fischer, Chefkok Gastronomisk Innovation.</span>
+              </p>
             </blockquote>
         </section>
 

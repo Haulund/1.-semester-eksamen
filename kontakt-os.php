@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,7 @@
             <div class="person">
                 <img src="img/kontakt/rasmus.jpg" alt="Rasmus Leck Fischer">
                 <div class="text">
-                  <h1>Rasmus Leck Fischer</h1>
+                  <h2>Rasmus Leck Fischer</h2>
                     <div class="social">Chefkok og madudvikler</div>
                     <ul>
                       <li>
@@ -53,7 +53,7 @@
 		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                             </g>
                         </svg>
-                        <span>KONTAKT</span>
+                        <span>+45 27110217</span>
                       </li>
                       <li>
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -65,7 +65,7 @@
 			                             L338.213,256L482,112.212V399.787z"/>
 	                           </g>
                            </svg>
-                           <span>+45 27110217</span>
+                           <a href="mailto:INFO@GASTRONOMISKINNOVATION.DK">Mail</a>
                          </li>
 
                       </ul>
@@ -76,7 +76,7 @@
                   <div class="person">
                       <img src="img/kontakt/gin.jpg" alt="Gin Isabel">
                       <div class="text">
-                        <h1>Gin Isabel </h1>
+                        <h2>Gin Isabel </h2>
                           <div class="social">Projekt koordinator og sommelier</div>
                           <ul>
                             <li>
@@ -92,7 +92,7 @@
       		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                                   </g>
                               </svg>
-                              <span>KONTAKT</span>
+                              <span>+45 53761776</span>
                             </li>
                             <li>
                               <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -104,7 +104,7 @@
       			                             L338.213,256L482,112.212V399.787z"/>
       	                           </g>
                                  </svg>
-                                 <span>+45 53761776</span>
+                                 <a href="mailto:INFO@GASTRONOMISKINNOVATION.DK">Mail</a>
                                </li>
 
                             </ul>
@@ -115,7 +115,7 @@
                         <div class="person">
                             <img src="img/kontakt/morten.jpg" alt="Morten Henningsen">
                             <div class="text">
-                              <h1>Morten Henningsen</h1>
+                              <h2>Morten Henningsen</h2>
                                 <div class="social">CEO og kommunikationschef</div>
                                 <ul>
                                   <li>
@@ -131,7 +131,7 @@
             		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                                         </g>
                                     </svg>
-                                    <span>KONTAKT</span>
+                                    <span>+45 40291687</span>
                                   </li>
                                   <li>
                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -143,7 +143,7 @@
             			                             L338.213,256L482,112.212V399.787z"/>
             	                           </g>
                                        </svg>
-                                       <span>+45 40291687</span>
+                                       <a href="mailto:INFO@GASTRONOMISKINNOVATION.DK">Mail</a>
                                      </li>
 
                                   </ul>
@@ -154,7 +154,7 @@
                               <div class="person">
                                   <img src="img/kontakt/julien.jpg" alt="Julien Risbourg">
                                   <div class="text">
-                                    <h1>Julien Risbourg</h1>
+                                    <h2>Julien Risbourg</h2>
                                       <div class="social">Kok</div>
                                       <ul>
                                         <li>
@@ -170,7 +170,7 @@
                   		                        c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S10.8,33.8,10.2,33.8z M18.7,30.6h-17V3.7h17V30.6z"/>
                                               </g>
                                           </svg>
-                                          <span>KONTAKT</span>
+                                          <span>+45 3110 6953</span>
                                         </li>
                                         <li>
                                           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -182,7 +182,7 @@
                   			                             L338.213,256L482,112.212V399.787z"/>
                   	                           </g>
                                              </svg>
-                                             <span>+45 3110 6953</span>
+                                             <a href="mailto:INFO@GASTRONOMISKINNOVATION.DK">Mail</a>
                                            </li>
 
                                         </ul>
@@ -205,7 +205,7 @@
                                         <input type="tel" name="tlf" placeholder="Telefon">
                                       </div>
                                       <div class="column">
-                                        <textarea name="beskrivelse" placeholder="Skriv din forespørgsel her ... "rows="8" cols="80"></textarea>
+                                        <textarea name="beskrivelse" placeholder="Skriv din forespørgsel her ..." rows="8" cols="80"></textarea>
                                       </div>
                                       <div class="fullwidth">
                                         <input type="submit" name="send" value="Send">

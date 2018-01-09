@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
 
     <main>
         <section class="newswrapper">
-            <div class="row"> 
+            <div class="row">
                 <div class="column">
                     <a href="#" class="news-item">
                         <img alt="social nyhed" src="img/nyheder/facebook-opslag_01.jpg">
@@ -75,7 +75,7 @@
                             <div class="date">21. Juli 2017</div>
                         </div>
                     </a>
-                </div> 
+                </div>
                 <div class="column">
                     <a href="#" class="news-item">
                         <img alt="social nyhed" src="img/nyheder/instagram-opslag_01.jpg">

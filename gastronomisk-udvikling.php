@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +55,7 @@
     </section>
 
     <section class="textimage">
-        <figure><img src="img/gastronomiskudvikling/arlaunika.jpg"></figure>
+        <figure><img alt="oste fra arla" src="img/gastronomiskudvikling/arlaunika.jpg"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
             <h2>Case - Arla Unika</h2>
             <p>Gastronomisk Innovation blev bedt om at bidrage til at udbrede kendskabet til Arlas Unika-oste.</p>

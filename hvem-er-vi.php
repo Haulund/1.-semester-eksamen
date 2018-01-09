@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,8 +34,8 @@
           <blockquote>
               <p>Vi er specialister i skræddersyede mad- og vinoplevelser og tilbyder virksomheder gastronomisk event-planlægning og konceptudvikling. </p>
           </blockquote>
-          <a class="button" href="#">
-                Kontakt os idag
+          <a class="button" href="kontakt-os.php">
+                Kontakt os i dag
             </a>
         </section>
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +32,7 @@
   <main>
     <section class="marginTop">
       <article class="articleblock">
-          <h1>Skal dit næste event være noget helt særligt?</h1>
+          <h2>Skal dit næste event være noget helt særligt?</h2>
           <p>Med udgangspunkt i jeres ønsker og med vores indgående kendskab til den gastronomiske verden, hjælper vi jer med at udvikle spændende arrangementer med gastronomi som et ekslusivt omdrejningspunkt.
 Uanset om det gælder en produktlancering, teambuilding i virksomheden eller afholdelse af et netværksarrangement, kan vi stå for ideudvikling og projektledelse og sikrer kvaliteten, så jeres kunder får en hel unik oplevelse .</p>
           <p>“Tak for et rigtig vellykket arrangement i fredags... alle var ovenud begejstrede, både de gourmet-vante og dem, der ellers var lidt skeptiske ifht. ”det eksperimenterende”...

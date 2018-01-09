@@ -338,6 +338,7 @@ blockquote span {
   display: block;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 20px;
 }
 
 section.quote .button {
@@ -934,15 +935,16 @@ article.articleblock span {
 .kontaktperson ul li:nth-of-type(2) svg {
   margin-left: 2px;
 }
-.kontaktperson ul li:nth-of-type(2) span {
+.kontaktperson ul li:nth-of-type(2) span, .kontaktperson ul li:nth-of-type(2) a {
   padding-left: 46px;
 }
 .kontaktperson ul li svg {
   display: inline-block;
   height: 16px;
 }
-.kontaktperson ul li span {
+.kontaktperson ul li span, .kontaktperson ul li a {
   padding-left: 40px;
+  color: black;
 }
 
 section.form h3 {
