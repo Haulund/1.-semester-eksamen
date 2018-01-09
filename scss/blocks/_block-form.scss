@@ -46,6 +46,7 @@ section.form{
     input[type="submit"] {
       @include button($purple, $white);
       padding: 25px 70px;
+      cursor: pointer;
     }
     .fullwidth{
       width: 100%;
