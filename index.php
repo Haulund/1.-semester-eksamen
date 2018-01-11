@@ -162,7 +162,7 @@
             </a>
             <h1>Med gastronomi i centrum er vi eksperter i eventplanlægning og madudvikling til din virksomhed</h1>
             <div class="buttonwrapper">
-              <a class="button" href="kontakt-os.php">Book et møde</a>
+              <a class="button" href="kontakt-os.php#kontakt-os">Book et møde</a>
             </div>
         </div>
         <div id="background-video" class="background-video" data-id="aD1LZVoTXYc"></div>

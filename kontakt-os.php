@@ -330,7 +330,7 @@
 
                                   <!-- form -->
 
-                                  <section class="form">
+                                  <section id="kontakt-os" class="form">
                                     <h3>KONTAKT OS</h3>
                                     <form class="" action="mailto:info@gastronomiskinnovation.dk" method="post">
                                       <div class="column">

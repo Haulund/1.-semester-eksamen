@@ -79,7 +79,8 @@ header {
           header nav ul li a {
             font-size: 30px;
             padding: 0px 0px 40px 40px;
-            text-align: left; } }
+            text-align: left;
+            margin-bottom: 0; } }
     header nav .closebtn {
       position: absolute;
       right: 20px;
@@ -609,6 +610,9 @@ section.headerpic {
     left: 50%;
     z-index: 11;
     display: block; }
+    @media screen and (min-width: 769px) {
+      section.headerpic a {
+        top: 60px; } }
     section.headerpic a svg {
       max-width: 100%;
       width: 100%; }
@@ -619,7 +623,14 @@ section.headerpic {
     left: 50%;
     z-index: 11;
     color: white;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px; }
+    @media screen and (min-width: 769px) {
+      section.headerpic h1 {
+        margin-top: 0;
+        font-size: 40px; } }
   section.headerpic:before {
     content: '';
     position: absolute;

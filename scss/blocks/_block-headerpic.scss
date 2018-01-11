@@ -12,6 +12,10 @@ section.headerpic {
     left: 50%;
     z-index: 11;
     display: block;
+
+    @media screen and (min-width: $md) {
+      top: 60px;
+    }
   
     svg {
       max-width: 100%;
@@ -27,6 +31,14 @@ section.headerpic {
     z-index: 11;
     color: white;
     margin-bottom: 0;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+
+    @media screen and (min-width: $md) {
+      margin-top: 0;
+      font-size: 40px;
+    }
   }
 
   &:before {
