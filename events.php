@@ -171,9 +171,9 @@
           <h2>Skal dit næste event være noget helt særligt?</h2>
           <p>Med udgangspunkt i jeres ønsker og med vores indgående kendskab til den gastronomiske verden, hjælper vi jer med at udvikle spændende arrangementer med gastronomi som et ekslusivt omdrejningspunkt.
 Uanset om det gælder en produktlancering, teambuilding i virksomheden eller afholdelse af et netværksarrangement, kan vi stå for ideudvikling og projektledelse og sikrer kvaliteten, så jeres kunder får en hel unik oplevelse .</p>
-          <p>“Tak for et rigtig vellykket arrangement i fredags... alle var ovenud begejstrede, både de gourmet-vante og dem, der ellers var lidt skeptiske ifht. ”det eksperimenterende”...
-Koncept, betjening og arrangement, alt var bare tip-top.”</p>
-          <span>Nicoline Dahlberg, redaktør hos Forlaget Gyldendal</span>
+          <p><i>“Tak for et rigtig vellykket arrangement i fredags... alle var ovenud begejstrede, både de gourmet-vante og dem, der ellers var lidt skeptiske ifht. ”det eksperimenterende”...
+Koncept, betjening og arrangement, alt var bare tip-top.”</i></p>
+          <span>- Nicoline Dahlberg, redaktør hos Forlaget Gyldendal</span>
       </article>
     </section>
 
@@ -182,7 +182,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
             <h2>Vi hjælper med det hele.</h2>
             <p>Ved kreativ sparring kan vi i fællesskab skabe jeres event, hvor vi kan stå for det hele eller dele af arrangementet alt efter jeres ønsker.</p>
-            <p>Det gastronomiske omdrejningspunkt, udvikler vi sammen med kokke, der har baggrund i nogle af landets toprestauranter. Kokkene er højt specialiserede inden for mange forskellige grene af gastronomien det giver os mulighed for at håndplukke den kok, som passer bedst til hver enkelt opgave.</p>
+            <p>Det gastronomiske omdrejningspunkt, udvikler vi sammen med kokke, der har baggrund i nogle af landets toprestauranter. Kokkene er højt specialiserede inden for mange forskellige grene af gastronomien, det giver os mulighed for at håndplukke den kok, som passer bedst til hver enkelt opgave.</p>
             <p>Arrangementet kan afholdes i vores lokaler, Atelier 1B, som er vores kreative gastronomiske værksted og eksperimentarium, eller vi kan hjælpe med at finde egnede lokaler.</p>
             <p>Vi kan derudover tilbyde assistance i alle elementer af arrangementet ved at benytte vores store netværk af specialister: Skarpe kommunikatører, dygtige fotografer og professionelle værtinder, for blot at nævne nogle af mulighederne - ingen opgave er for lille eller stor.</p>
         </div>
@@ -202,7 +202,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</p>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
             <h2>Vi inviterer</h2>
             <p>I kan også invitere kunder og medarbejdere med til et af de arrangementer vi selv afholder under mere afslappede former.</p>
-            <p>I vores egne hyggelige lokaler, Ateliér 1B, kan I for eksempel opleve en skøn forening af kunst og mad i “Kærs kunstcafé”, eller netværke under middagen ved  “Kokkens Bord”, hvor kokke, fra vores netværk, på skift sammensætter en menu med tema efter eget valg. </p>
+            <p>I vores egne hyggelige lokaler, Ateliér 1B, kan I for eksempel opleve en skøn forening af kunst og mad i “Kærs kunstcafé”, eller netværke under middagen ved  “Kokkens Bord”, hvor kokke fra vores netværk på skift sammensætter en menu med tema efter eget valg. </p>
             <p>Tilmeld dig vores nyhedsbrev og få opdateringer om kommende Arrangementer.</p>
 
         <a class="button" href="#popup1">

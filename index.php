@@ -184,7 +184,7 @@
         <section class="quote">
             <blockquote>
               <p> “Mad er et af de bedste værktøjer til at samle folk, til at fortælle historier og skabe debat”
-                    <span>Rasmus Leck Fischer, Chefkok Gastronomisk Innovation.</span>
+                    <span>- Rasmus Leck Fischer, Chefkok Gastronomisk Innovation.</span>
               </p>
             </blockquote>
         </section>

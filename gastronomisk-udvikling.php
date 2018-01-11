@@ -167,7 +167,7 @@
 <main>
   <section class="quote">
       <blockquote>
-          <p>I gastronomisk innovation vil vi udforske og udvide gastronomiens grænser. Vi kan hjælpe med at udvikle nytænkende opskrifter til jeres produkter eller inspirere med retter tematiseret til jeres event.</p>
+          <p>I Gastronomisk Innovation vil vi udforske og udvide gastronomiens grænser. Vi kan hjælpe med at udvikle nytænkende opskrifter til jeres produkter eller inspirere med retter tematiseret til jeres event.</p>
       </blockquote>
   </section>
 

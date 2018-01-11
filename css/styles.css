@@ -826,7 +826,6 @@ article.articleblock {
 }
 article.articleblock span {
   font-weight: 400;
-  float: right;
 }
 @media screen and (min-width: 769px) {
   article.articleblock {
