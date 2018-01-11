@@ -21,6 +21,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
+    <!-- HEADER PIC -->
     <section class="headerpic" style="background-image: url('img/hvemervi/hvemervihead.jpg');">
       <h1 data-0="transform: translate(-50%, -50%)" data-1000="transform: translate(-50%, 300%)">Hvem er vi</h1>
       <a href="index.php"><!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
@@ -164,6 +165,7 @@
     </section>
 
     <main>
+        <!-- QUOTE -->
       <section class="quote">
           <blockquote>
               <p>Vi er specialister i skræddersyede mad- og vinoplevelser og tilbyder virksomheder gastronomisk event-planlægning og konceptudvikling. </p>
@@ -173,6 +175,7 @@
             </a>
         </section>
 
+    <!-- TEXT IMAGE -->
       <section class="textimage">
           <figure><img alt="Historien bag" src="img/hvemervi/historienbag.jpg"></figure>
           <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
@@ -182,7 +185,7 @@
               <p>Bag gryderne står chefkok Rasmus Leck Fischer, som med en alsidig baggrund, bl.a. på den 3-stjernede Michelinrestaurant Martin Berasategui, skaber spændende menuer til events og udvikler opskrifter til produktlanceringer.</p><p> I køkkenet møder du også souschef Julien Risbourg som elsker at videregive sin passion for mad og med en naturlig ro og tålmodighed gør ham til et oplagt valg til workshops. </p><p>Projektleder på arrangementerne i Gastronomisk Innovation er Gin Isabel. Med en fortid som chef-sommelier og restaurantchef er Gin vant til at have overblikket hele vejen rundt.</p>
               </div>
       </section>
-
+    <!-- TEXT IMAGE RIGHT -->
       <section class="textimage image-right">
           <figure>
               <div class="videoWrapper">
@@ -197,7 +200,7 @@
       </section>
 
     </main>
-
+    <!-- FOOTER -->
     <?php include 'footer.php'; ?>
 
 </body>

@@ -19,6 +19,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
+    <!-- HEADER PIC -->
     <section class="videoheader">
         <div class="videowrapper">
           <div class="center" data-0="transform: translate(-50%, -50%)" data-1000="transform: translate(-50%, 50%)">

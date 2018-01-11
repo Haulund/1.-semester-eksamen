@@ -21,7 +21,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
-
+    <!-- HEADER PIC -->
     <section class="headerpic" style="background-image: url('img/kontakt/kontakthead.jpg');">
         <h1 data-0="transform: translate(-50%, -50%)" data-1000="transform: translate(-50%, 300%)">Kontakt os</h1>
         <a href="index.php"><!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
@@ -166,6 +166,7 @@
 
     <main>
 
+    <!-- KONTAKT PERSONER -->
     <section class="kontaktperson">
       <div class="row">
           <div class="column">
@@ -354,7 +355,7 @@
 
 
     </main>
-
+    <!-- FOOTER -->
     <?php include 'footer.php'; ?>
 
 </body>

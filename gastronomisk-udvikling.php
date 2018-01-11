@@ -21,6 +21,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
+    <!-- HEADER PIC -->
     <section class="headerpic" style="background-image: url('img/gastronomiskudvikling/gastronomiskudviklinghead.jpg');">
       <h1 data-0="transform: translate(-50%, -50%)" data-1000="transform: translate(-50%, 300%)">Gastronomisk Udvikling</h1>
       <a href="index.php"><!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
@@ -165,12 +166,14 @@
 
 
 <main>
+    <!-- QUOTE -->
   <section class="quote">
       <blockquote>
           <p>I Gastronomisk Innovation vil vi udforske og udvide gastronomiens grænser. Vi kan hjælpe med at udvikle nytænkende opskrifter til jeres produkter eller inspirere med retter tematiseret til jeres event.</p>
       </blockquote>
   </section>
 
+    <!-- TEXT IMAGE -->
     <section class="textimage">
         <figure><img alt="Food styling" src="img/gastronomiskudvikling/foodstyling.jpg"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
@@ -180,6 +183,7 @@
         </div>
     </section>
 
+    <!-- TEXT IMAGE RIGHT -->
     <section class="textimage image-right">
         <figure><img alt="Snaps" src="img/gastronomiskudvikling/bronumsnaps.jpg"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
@@ -188,6 +192,7 @@
             <p>I forbindelse med konceptudviklingen udviklede vi professionelle, snapseegnede opskrifter, som var tidssvarende og trendy. Opskrifterne blev udarbejdet af en professionel kok med baggrund på landets allerbedste restauranter.</div>
     </section>
 
+    <!-- TEXT IMAGE -->
     <section class="textimage">
         <figure><img alt="oste fra arla" src="img/gastronomiskudvikling/arlaunika.jpg"></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
@@ -198,7 +203,7 @@
     </section>
 
   </main>
-
+    <!-- FOOTER -->
     <?php include 'footer.php'; ?>
 
 </body>

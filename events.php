@@ -20,6 +20,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
+    <!-- HEADER PIC -->
     <section class="headerpic" style="background-image: url('img/events/eventshead.jpg');">
     <h1 data-0="transform: translate(-50%, -50%)" data-1000="transform: translate(-50%, 300%)">Events</h1>
 
@@ -165,6 +166,7 @@
     </section>
 
   <main>
+    <!-- ARTICLE BLOCK -->
     <section class="marginTop">
       <article class="articleblock">
           <h2>Skal dit næste event være noget helt særligt?</h2>
@@ -176,6 +178,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</i></p>
       </article>
     </section>
 
+    <!-- TEXT IMAGE RIGHT -->
     <section class="textimage image-right">
         <figure><img alt="Hvad skal vi hjælpe dig med" src="img/events/vikandethele.jpg"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
@@ -187,6 +190,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</i></p>
         </div>
     </section>
 
+    <!-- TEXT IMAGE -->
     <section class="textimage">
         <figure><img alt="Case - Topmøde for Dansk Industri" src=img/events/casedanskindustri.jpg></figure>
         <div class="text purple" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 300px;">
@@ -196,6 +200,7 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</i></p>
             </div>
     </section>
 
+    <!-- TEXT IMAGE RIGHT -->
     <section class="textimage image-right">
         <figure><img alt="Vi inviterer dig" src="img/events/viinviterertil.jpg"></figure>
         <div class="text green" data-bottom-top="margin-top: 0px;" data-top-bottom="margin-top: 100px;">
@@ -211,8 +216,8 @@ Koncept, betjening og arrangement, alt var bare tip-top.”</i></p>
     </section>
   </main>
 
-
-<?php include 'footer.php'; ?>
+    <!-- FOOTER -->
+    <?php include 'footer.php'; ?>
 
   </body>
 </html>

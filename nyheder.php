@@ -21,6 +21,7 @@
     <!-- HEADER -->
     <?php include 'header.php'; ?>
 
+    <!-- HEADER PIC -->
     <section class="headerpic" style="background-image: url('img/nyheder/nyhederhead.jpg');">
       <h1 data-0="transform: translate(-50%, -50%)" data-1000="transform: translate(-50%, 300%)">Nyheder</h1>
       <a href="index.php"><!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
@@ -165,6 +166,7 @@
 
 
     <main>
+    <!-- NYHEDSWRAPPER -->
         <section class="newswrapper">
             <div class="row">
                 <div class="column">
@@ -256,6 +258,7 @@
         </section>
     </main>
 
+        <!-- FOOTER -->
     <?php include 'footer.php'; ?>
 
 </body>
