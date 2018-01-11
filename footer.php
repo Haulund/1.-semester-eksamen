@@ -161,7 +161,7 @@
 
 <div id="popup1" class="overlay">
 	<div class="popup">
-		<h2>Tilmeld dig vores Nyhedsbrev</h2>
+		<h2>Tilmeld dig vores nyhedsbrev</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
       <form class="" action="#" method="post">
