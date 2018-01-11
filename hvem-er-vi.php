@@ -168,7 +168,7 @@
           <blockquote>
               <p>Vi er specialister i skræddersyede mad- og vinoplevelser og tilbyder virksomheder gastronomisk event-planlægning og konceptudvikling. </p>
           </blockquote>
-          <a class="button" href="kontakt-os.php">
+          <a class="button" href="kontakt-os.php#kontakt-os">
                 Kontakt os i dag
             </a>
         </section>

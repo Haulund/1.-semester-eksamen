@@ -34,7 +34,7 @@ header {
 
             li {
                 a {
-                    padding-bottom: 40px;
+                    margin-bottom: 40px;
                     text-decoration: none;
                     font-size: 18px;
                     color: $white;
@@ -47,6 +47,7 @@ header {
                         font-size: 30px;
                         padding: 0px 0px 40px 40px;
                         text-align: left;
+                        margin-bottom: 0;
                     }
                 }
             }
@@ -55,8 +56,8 @@ header {
 
         .closebtn {
             position: absolute;
-            right: 40px;
-            bottom: 40px;
+            right: 20px;
+            top: 20px;
             display: block;
             width: 50px;
             height: 50px;
@@ -66,7 +67,6 @@ header {
 
             @media screen and (min-width: $md) {
                 top: 50%;
-                bottom: auto;
                 transform: translateY(-50%);
             }
 
@@ -93,8 +93,8 @@ header {
 
 .openbtn {
     position: fixed;
-    right: 40px;
-    bottom: 40px;
+    right: 20px;
+    top: 20px;
     background: $black;
     display: block;
     width: 50px;
@@ -105,7 +105,6 @@ header {
 
     @media screen and (min-width: $md) {
         top: 50%;
-        bottom: auto;
         transform: translateY(-50%);
     }
 

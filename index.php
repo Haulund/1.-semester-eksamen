@@ -14,7 +14,6 @@
 
     <script src="js/scripts.js"></script>
 
-
 </head>
 <body>
     <!-- HEADER -->
@@ -28,12 +27,12 @@
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
                 x="0px" y="0px" width="323.6px" height="41.5px" viewBox="0 0 323.6 41.5" style="enable-background:new 0 0 323.6 41.5;"
                 xml:space="preserve">
-            <style type="text/css">
-                .st0{fill:#FFFFFF;}
-            </style>
-            <defs>
-            </defs>
-            <g>
+                <style type="text/css">
+                    .st0{fill:#FFFFFF;}
+                </style>
+                <defs>
+                </defs>
+                <g>
                 <path class="st0" d="M12.5,0.4c0.8,0.3,1.5,0.7,2.1,1.2c0.2,0.1,0.3,0.2,0.5,0.2c0.2,0,0.3-0.1,0.4-0.4c0.1-0.2,0.2-0.6,0.2-1.1
                     h0.6c-0.1,1.2-0.1,3.3-0.1,6.2h-0.6c-0.1-1.3-0.3-2.4-0.6-3.1c-0.3-0.8-0.9-1.4-1.7-1.9c-0.3-0.2-0.8-0.4-1.2-0.6
                     c-0.5-0.1-0.9-0.2-1.4-0.2C9.5,0.8,8.5,1.2,7.8,2C7,2.9,6.5,3.9,6.2,5.2c-0.3,1.3-0.5,2.6-0.5,4c0,2.9,0.4,5.1,1.1,6.5
@@ -163,9 +162,7 @@
             </a>
             <h1>Med gastronomi i centrum er vi eksperter i eventplanlægning og madudvikling til din virksomhed</h1>
             <div class="buttonwrapper">
-              <a class="button" href="kontakt-os.php">
-                Book et møde
-              </a>
+              <a class="button" href="kontakt-os.php#kontakt-os">Book et møde</a>
             </div>
         </div>
         <div id="background-video" class="background-video" data-id="aD1LZVoTXYc"></div>
